@@ -1,0 +1,32 @@
+{
+  "case_id": "example-multi",
+  "root_causes": [
+    {
+      "entity_type": "apm.service",
+      "entity_name": "invoicing",
+      "entity_id": "entity-invoicing",
+      "fault_type": "HTTP 5xx error",
+      "reasoning": "The invoicing service immediately returns HTTP 500 for business requests while resource metrics remain normal.",
+      "confidence": "high"
+    },
+    {
+      "entity_type": "apm.service",
+      "entity_name": "statement",
+      "entity_id": "entity-statement",
+      "fault_type": "CPU full load",
+      "reasoning": "The statement service CPU remains at 100 percent of its configured limit and request latency rises during the same interval.",
+      "confidence": "high"
+    }
+  ],
+  "causal_chain": [
+    {
+      "cause": "invoicing application returns HTTP 500",
+      "effect": "invoicing error count increases"
+    },
+    {
+      "cause": "statement CPU saturation",
+      "effect": "statement request latency increases"
+    }
+  ],
+  "overall_confidence": "high"
+}

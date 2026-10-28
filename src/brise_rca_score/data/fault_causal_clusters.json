@@ -1,0 +1,27 @@
+{
+    "clusters": {
+        "容量簇": {
+            "label": "容量簇",
+            "fault_ids": [
+                "f002-threadexhaustion",
+                "f006-trafficsurge",
+                "f016-ratelimiting"
+            ]
+        },
+        "依赖簇": {
+            "label": "依赖簇",
+            "fault_ids": [
+                "f018-dbnetworklatency",
+                "f020-loadbalancerfailure"
+            ]
+        },
+        "jvm_内存簇": {
+            "label": "JVM 内存簇",
+            "fault_ids": [
+                "f007-memorypressure",
+                "f022-fullgc",
+                "f023-nullpointerexception"
+            ]
+        }
+    }
+}

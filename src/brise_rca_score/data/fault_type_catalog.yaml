@@ -1,0 +1,197 @@
+categories:
+  '1':
+    name: 节点/基础设施故障
+  '2':
+    name: JVM/应用运行时故障
+  '3':
+    name: 业务代码/部署故障
+  '4':
+    name: 流量/安全故障
+  '5':
+    name: 依赖/中间件故障
+  '6':
+    name: HTTP/网络层故障
+  '7':
+    name: K8S/容器故障
+types:
+- fault_id: F001-nodeDown
+  canonical: nodeDown
+  description: 物理服务器宕机，节点 NotReady，Pod Evicted
+  category: '1'
+  status: enabled
+- fault_id: F024-diskFull
+  canonical: diskFull
+  description: 节点磁盘满导致服务异常
+  category: '1'
+  status: enabled
+- fault_id: F025-diskIOHigh
+  canonical: diskiohigh
+  description: 节点磁盘 IO 飙高导致应用读写延迟上升
+  category: '1'
+  status: enabled
+- fault_id: F026-nodeCpuHigh
+  canonical: nodecpuhigh
+  description: Node CPU 使用率高导致 Pod CPU 被 throttle
+  category: '1'
+  status: enabled
+- fault_id: F031-nodeMemoryOOM
+  canonical: nodememoryoom
+  description: Node 内存高负载导致 OOM
+  category: '1'
+  status: enabled
+- fault_id: F002-threadExhaustion
+  canonical: threadExhaustion
+  description: 线程池耗尽导致请求排队超时
+  category: '2'
+  status: enabled
+- fault_id: F003-memoryLeak
+  canonical: memoryLeak
+  description: JVM 内存泄漏，堆持续增长，FullGC 频繁
+  category: '2'
+  status: enabled
+- fault_id: F007-memoryPressure
+  canonical: memoryPressure
+  description: 频繁创建大对象导致 FullGC STW
+  category: '2'
+  status: enabled
+- fault_id: F012-cpuDeadLoop
+  canonical: cpuDeadLoop
+  description: 死循环导致 CPU 100%
+  category: '2'
+  status: enabled
+- fault_id: F013-oomKill
+  canonical: oomKill
+  description: 进程内存溢出导致容器 OOMKilled
+  category: '2'
+  status: enabled
+- fault_id: F022-fullGC
+  canonical: fullGC
+  description: JVM FullGC 频繁导致 STW 停顿
+  category: '2'
+  status: enabled
+- fault_id: F034-cpuFullLoad
+  canonical: cpufullload
+  description: CPU 打满
+  category: '2'
+  status: enabled
+- fault_id: F011-codeDefect
+  canonical: codeDefect
+  description: 业务逻辑错误，错误参数导致调用不存在的接口
+  category: '3'
+  status: enabled
+- fault_id: F021-deployBug-29
+  canonical: deploybug
+  description: 发版引入 Bug 导致服务异常
+  category: '3'
+  status: enabled
+- fault_id: F023-nullPointerException
+  canonical: nullPointerException
+  description: NPE 空指针异常导致接口 500
+  category: '3'
+  status: enabled
+- fault_id: F004-trafficHotspot
+  canonical: trafficHotspot
+  description: 单一商品/接口请求集中导致热点
+  category: '4'
+  status: enabled
+- fault_id: F006-trafficSurge
+  canonical: trafficSurge
+  description: 流量激增导致日志狂打，应用 hang 住
+  category: '4'
+  status: enabled
+- fault_id: F008-ccAttack
+  canonical: ccAttack
+  description: 恶意请求消耗大量 CPU
+  category: '4'
+  status: enabled
+- fault_id: F016-rateLimiting
+  canonical: rateLimiting
+  description: 下游接口限流返回 429
+  category: '4'
+  status: enabled
+- fault_id: F005-messageQueueBacklog
+  canonical: messageQueueBacklog
+  description: 消息队列消费堆积延迟上升
+  category: '5'
+  status: enabled
+- fault_id: F009-cacheBreakdown
+  canonical: cacheBreakdown
+  description: 缓存击穿导致 Redis 大量 miss/错误
+  category: '5'
+  status: enabled
+- fault_id: F010-slowSQL
+  canonical: slowSQL
+  description: 慢 SQL 查询拖慢数据库
+  category: '5'
+  status: enabled
+- fault_id: F018-dbNetworkLatency
+  canonical: dbNetworkLatency
+  description: Pod 到数据库端口网络延迟
+  category: '5'
+  status: enabled
+- fault_id: F029-redisUnavailable
+  canonical: redisUnavailable
+  description: Redis 6379 端口丢包导致服务不可用
+  category: '5'
+  status: enabled
+- fault_id: F014-httpError5xx
+  canonical: httpError5xx
+  description: 下游服务返回 HTTP 5xx
+  category: '6'
+  status: enabled
+- fault_id: F020-loadBalancerFailure
+  canonical: loadBalancerFailure
+  description: Service Selector 修改导致 Endpoints 为空，流量切断
+  category: '6'
+  status: enabled
+- fault_id: F033-slowResource
+  canonical: slowResource
+  description: 前端静态资源加载变慢，影响首屏体验
+  category: '6'
+  status: enabled
+- fault_id: F035-http403Forbidden
+  canonical: http403forbidden
+  description: HTTP 403 / 权限拒绝 / 鉴权拒绝
+  category: '6'
+  status: enabled
+- fault_id: F032-podFail
+  canonical: podfail
+  description: 下游服务 Pod 宕机/崩溃导致不可用
+  category: '7'
+  status: deprecated
+- fault_id: F056-networkPolicyIsolation
+  canonical: networkPolicyIsolation
+  description: K8s NetworkPolicy 误配/缺失，导致服务间被网络策略隔离不可联通
+  category: '6'
+  status: enabled
+- fault_id: F057-dnsResolutionFailure
+  canonical: dnsResolutionFailure
+  description: DNS 解析失败（CoreDNS 异常、resolv.conf 错误、网络中断），下游服务名无法解析
+  category: '6'
+  status: enabled
+- fault_id: F036-replicaScaleDown
+  canonical: replicaScaleDown
+  description: Deployment replicas 被缩至 0，所有 Pod 被终止，Endpoints 变空，流量完全中断
+  category: '7'
+  status: enabled
+- fault_id: F039-resourceLimitMisconfig
+  canonical: resourceLimitMisconfig
+  description: 容器 memory/CPU limit 配置过低，Pod 在正常负载下频繁触发 OOMKilled 或 CPU throttle。特征是重启后秒级再次异常
+    + limit 值明显偏低。区别于 F013(OOM) 的通用症状。
+  category: '7'
+  status: enabled
+- fault_id: F050-podCrashLoop
+  canonical: podCrashLoop
+  description: 容器启动后立即异常退出，Pod 持续进入 CrashLoopBackOff，restart_count 快速增长
+  category: '7'
+  status: enabled
+- fault_id: F051-podPendingUnschedulable
+  canonical: podPendingUnschedulable
+  description: Pod 因 nodeSelector、taint、资源或卷条件不满足而长期 Pending，无法进入 Running
+  category: '7'
+  status: enabled
+- fault_id: F052-podRestartFlapping
+  canonical: podRestartFlapping
+  description: Pod 可短暂启动但周期性退出重启，表现为 restart_count 持续累加且服务间歇性可用
+  category: '7'
+  status: enabled

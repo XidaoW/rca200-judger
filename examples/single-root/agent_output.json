@@ -1,0 +1,20 @@
+{
+  "case_id": "example-single",
+  "root_causes": [
+    {
+      "entity_type": "apm.service",
+      "entity_name": "inventory",
+      "entity_id": "entity-inventory",
+      "fault_type": "thread pool exhaustion",
+      "reasoning": "The inventory worker pool reached its concurrency limit. Active workers stayed at the maximum while rejected task count increased, so new requests were rejected.",
+      "confidence": "high"
+    }
+  ],
+  "causal_chain": [
+    {
+      "cause": "inventory worker pool saturation",
+      "effect": "new requests are rejected"
+    }
+  ],
+  "overall_confidence": "high"
+}

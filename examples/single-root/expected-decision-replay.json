@@ -1,0 +1,114 @@
+{
+  "case_id": "example-single",
+  "scoring_formula_version": "rca-local-v3.1",
+  "input_sha256": "baa61347b845720bd56e8b9e58f7bd7783800389c07bb7e06a8bbfee42f05b30",
+  "judge_model": "qwen3.7-plus",
+  "scores": {
+    "fault_type": 1.0,
+    "entity": 1.0,
+    "process": 0.7,
+    "overall": 91.0
+  },
+  "gate": {
+    "passed": true,
+    "threshold": 60.0
+  },
+  "details": {
+    "fault_type": {
+      "score": 1.0,
+      "match_tier": "exact",
+      "matched_fault_id": "F002-threadExhaustion",
+      "predicted_fault_ids": [
+        "F002-threadExhaustion"
+      ],
+      "shared_category": "",
+      "scoring_method": "exact",
+      "reason": "",
+      "match_detail": "",
+      "causal_match_depth": null,
+      "causal_match_kind": "",
+      "semantic_mapping_status": "",
+      "semantic_mapped_fault_id": "",
+      "semantic_mapping_reason": "",
+      "semantic_mapping_votes": [],
+      "semantic_mapping_prompt_version": "",
+      "semantic_mapping_prompt_sha256": "",
+      "mechanism_gate_status": "",
+      "mechanism_gate_reason": "",
+      "mechanism_gate_claim": "",
+      "mechanism_gate_prior_score": null,
+      "mechanism_gate_prior_tier": "",
+      "mechanism_gate_votes": [],
+      "expected_raw": "",
+      "expected_normalized": "",
+      "actual_raw": []
+    },
+    "entity": {
+      "score": 1.0,
+      "entity_grade": "精确命中",
+      "entity_grade_score": 100.0,
+      "expected_count": 1,
+      "matched_count": 1,
+      "matched_entities": [
+        "entity-inventory"
+      ],
+      "entity_resolve_method": "string_exact",
+      "reason": "",
+      "extraction_method": ""
+    },
+    "process": {
+      "score": 0.7,
+      "score_source": "rca_review",
+      "tier": "",
+      "tier_reason": "",
+      "review_dimensions": [
+        {
+          "dimension": "causal_contradiction",
+          "score": 100,
+          "strengths": [],
+          "issues": []
+        },
+        {
+          "dimension": "logic_jump",
+          "score": 70,
+          "strengths": [],
+          "issues": [
+            {
+              "severity": "low",
+              "description": "One optional verification step is omitted",
+              "issue_type": "missing_verification",
+              "missing": "optional confirmation"
+            }
+          ]
+        },
+        {
+          "dimension": "evidence_gap",
+          "score": 70,
+          "strengths": [],
+          "issues": [
+            {
+              "severity": "low",
+              "description": "The baseline comparison could be more explicit",
+              "issue_type": "baseline_detail",
+              "missing": "baseline value"
+            }
+          ]
+        }
+      ],
+      "explanation_for_human": "",
+      "fault_type_used": "",
+      "reason": "",
+      "score_formula": "",
+      "samples": 1,
+      "judge_model": "",
+      "capped_from": null,
+      "cap_reasons": []
+    },
+    "formula": "综合分 = 100.0×30% + 100.0×40% + 70.0×30% = 91.0"
+  },
+  "source": {
+    "gt": "examples/single-root/private-gt-bundle.json",
+    "scored_output": "examples/single-root/agent_output.json",
+    "scoring": "decision_replay"
+  }
+}

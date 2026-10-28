@@ -1,0 +1,62 @@
+{
+  "details": {
+    "fault_type": {
+      "score": 1.0,
+      "match_tier": "exact",
+      "matched_fault_id": "F002-threadExhaustion",
+      "predicted_fault_ids": [
+        "F002-threadExhaustion"
+      ],
+      "scoring_method": "exact"
+    },
+    "entity": {
+      "score": 1.0,
+      "entity_grade": "精确命中",
+      "entity_grade_score": 100.0,
+      "expected_count": 1,
+      "matched_count": 1,
+      "matched_entities": [
+        "entity-inventory"
+      ],
+      "entity_resolve_method": "string_exact"
+    },
+    "process": {
+      "score": 0.7,
+      "score_source": "rca_review",
+      "review_dimensions": [
+        {
+          "dimension": "causal_contradiction",
+          "score": 100,
+          "strengths": [],
+          "issues": []
+        },
+        {
+          "dimension": "logic_jump",
+          "score": 70,
+          "strengths": [],
+          "issues": [
+            {
+              "severity": "low",
+              "description": "One optional verification step is omitted",
+              "issue_type": "missing_verification",
+              "missing": "optional confirmation"
+            }
+          ]
+        },
+        {
+          "dimension": "evidence_gap",
+          "score": 70,
+          "strengths": [],
+          "issues": [
+            {
+              "severity": "low",
+              "description": "The baseline comparison could be more explicit",
+              "issue_type": "baseline_detail",
+              "missing": "baseline value"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

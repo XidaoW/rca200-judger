@@ -1,0 +1,77 @@
+{
+  "ground_truth": {
+    "outcome": {
+      "root_causes": [
+        {
+          "rc_id": "rc1",
+          "fault_id": "F014-httpError5xx",
+          "entity_group": {
+            "required_entity_ids": [
+              "entity-invoicing"
+            ],
+            "alias_entity_ids": [],
+            "entity_refs": [
+              {
+                "entity_id": "entity-invoicing",
+                "entity_name": "invoicing",
+                "entity_domain": "apm",
+                "entity_type": "apm.service"
+              }
+            ]
+          },
+          "conclusion": "invoicing returns HTTP 5xx"
+        },
+        {
+          "rc_id": "rc2",
+          "fault_id": "F034-cpuFullLoad",
+          "entity_group": {
+            "required_entity_ids": [
+              "entity-statement"
+            ],
+            "alias_entity_ids": [],
+            "entity_refs": [
+              {
+                "entity_id": "entity-statement",
+                "entity_name": "statement",
+                "entity_domain": "apm",
+                "entity_type": "apm.service"
+              }
+            ]
+          },
+          "conclusion": "statement CPU reaches its limit"
+        }
+      ]
+    },
+    "reasoning": {
+      "steps": [
+        {
+          "step": 1,
+          "rc_refs": [
+            "rc1"
+          ],
+          "fault_id": "F014-httpError5xx",
+          "step_type": "cause",
+          "target": "invoicing",
+          "title": "HTTP 5xx errors",
+          "description": "invoicing returns HTTP 500 for business requests",
+          "observability": []
+        },
+        {
+          "step": 2,
+          "rc_refs": [
+            "rc2"
+          ],
+          "fault_id": "F034-cpuFullLoad",
+          "step_type": "cause",
+          "target": "statement",
+          "title": "CPU saturation",
+          "description": "statement CPU reaches 100 percent of its limit",
+          "observability": []
+        }
+      ]
+    }
+  },
+  "workspace": "example-workspace",
+  "region_id": "example-region",
+  "anchor_time": "2026-01-01T00:00:00+08:00"
+}

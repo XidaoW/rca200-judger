@@ -1,0 +1,47 @@
+{
+  "ground_truth": {
+    "outcome": {
+      "root_causes": [
+        {
+          "rc_id": "rc1",
+          "fault_id": "F002-threadExhaustion",
+          "entity_group": {
+            "required_entity_ids": [
+              "entity-inventory"
+            ],
+            "alias_entity_ids": [],
+            "entity_refs": [
+              {
+                "entity_id": "entity-inventory",
+                "entity_name": "inventory",
+                "entity_domain": "apm",
+                "entity_type": "apm.service"
+              }
+            ]
+          },
+          "conclusion": "inventory worker thread pool is exhausted and rejects requests"
+        }
+      ],
+      "expected_conclusion": "inventory worker thread pool is exhausted"
+    },
+    "reasoning": {
+      "steps": [
+        {
+          "step": 1,
+          "rc_refs": [
+            "rc1"
+          ],
+          "fault_id": "F002-threadExhaustion",
+          "step_type": "cause",
+          "target": "inventory",
+          "title": "Thread pool exhaustion",
+          "description": "active threads reach the pool limit and rejected task count rises",
+          "observability": []
+        }
+      ]
+    }
+  },
+  "workspace": "example-workspace",
+  "region_id": "example-region",
+  "anchor_time": "2026-01-01T00:00:00+08:00"
+}

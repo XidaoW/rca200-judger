@@ -1,0 +1,5280 @@
+{
+  "case_id": "t001",
+  "source": "umodel_v3",
+  "window": {
+    "start_iso": "2026-04-25T05:18:12.716735+00:00",
+    "end_iso": "2026-04-25T05:28:12.716735+00:00",
+    "start_us": 1777094292716735,
+    "end_us": 1777094892716735
+  },
+  "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+  "entities": [
+    {
+      "id": "70af2dee3d886988a1f1baefbf5fc400",
+      "type": "apm.service",
+      "name": "recommendation",
+      "first_observed": 0,
+      "last_observed": 1777000496,
+      "props": {
+        "service": "recommendation",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "python",
+        "telemetry_client": "ARMS"
+      }
+    },
+    {
+      "id": "ed13cb14265f98d9eb3b89b664760adb",
+      "type": "apm.service",
+      "name": "inventory",
+      "first_observed": 0,
+      "last_observed": 1777000616,
+      "props": {
+        "service": "inventory",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "java",
+        "telemetry_client": "ARMS"
+      }
+    },
+    {
+      "id": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "type": "apm.service",
+      "name": "checkout",
+      "first_observed": 0,
+      "last_observed": 1777000616,
+      "props": {
+        "service": "checkout",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "golang",
+        "telemetry_client": "ARMS"
+      }
+    },
+    {
+      "id": "2cd43b4306e9e4a0746d6777fbb41511",
+      "type": "apm.service",
+      "name": "flagd",
+      "first_observed": 0,
+      "last_observed": 1777001592,
+      "props": {
+        "service": "flagd",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "golang",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "b966e1cdfad1990aea191923bbcaae31",
+      "type": "apm.service",
+      "name": "shipping",
+      "first_observed": 0,
+      "last_observed": 1777001594,
+      "props": {
+        "service": "shipping",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "rust",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "53ba95864da43d9f76c51d6688ef55fd",
+      "type": "apm.service",
+      "name": "quote",
+      "first_observed": 0,
+      "last_observed": 1777001594,
+      "props": {
+        "service": "quote",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "php",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "6056069b1f55a1fce9d84f5f7a65478b",
+      "type": "apm.service",
+      "name": "email",
+      "first_observed": 0,
+      "last_observed": 1777001594,
+      "props": {
+        "service": "email",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "ruby",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "b96ac7e3e7bfb7a90fff90d51ba5ebf1",
+      "type": "apm.service",
+      "name": "ad",
+      "first_observed": 0,
+      "last_observed": 1777001594,
+      "props": {
+        "service": "ad",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "java",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "86a42ddcab6c62f627b395f419edf146",
+      "type": "apm.service",
+      "name": "accounting",
+      "first_observed": 0,
+      "last_observed": 1777001593,
+      "props": {
+        "service": "accounting",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "dotnet",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "938b93c483d62fc359229634908f9b2c",
+      "type": "apm.service",
+      "name": "fraud-detection",
+      "first_observed": 0,
+      "last_observed": 1777001594,
+      "props": {
+        "service": "fraud-detection",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "java",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "469f8e313055adba13ca3f4e76c65505",
+      "type": "apm.service",
+      "name": "cart",
+      "first_observed": 0,
+      "last_observed": 1777001594,
+      "props": {
+        "service": "cart",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "dotnet",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "aa9e3f1a5af5582a94ef0214d130f76d",
+      "type": "apm.service",
+      "name": "frontend-web",
+      "first_observed": 0,
+      "last_observed": 1777001595,
+      "props": {
+        "service": "frontend-web",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "webjs",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "cbc07c84c150ea654898625a992b2aa0",
+      "type": "apm.service",
+      "name": "currency",
+      "first_observed": 0,
+      "last_observed": 1777001595,
+      "props": {
+        "service": "currency",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "cpp",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "be9d8f99bff2d1a463deed5f650ae292",
+      "type": "apm.service",
+      "name": "frontend-proxy",
+      "first_observed": 0,
+      "last_observed": 1777001595,
+      "props": {
+        "service": "frontend-proxy",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "06e538f4a2950039a09fd3bba1d3b7b2",
+      "type": "apm.service",
+      "name": "payment",
+      "first_observed": 0,
+      "last_observed": 1777001595,
+      "props": {
+        "service": "payment",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "nodejs",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "ae41c357daeed41f49e51340e779af71",
+      "type": "apm.service",
+      "name": "product-catalog",
+      "first_observed": 0,
+      "last_observed": 1777001595,
+      "props": {
+        "service": "product-catalog",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "golang",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "cec115354dbee69ffba12c1d6863e993",
+      "type": "apm.service",
+      "name": "image-provider",
+      "first_observed": 0,
+      "last_observed": 1777001595,
+      "props": {
+        "service": "image-provider",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "type": "apm.service",
+      "name": "frontend",
+      "first_observed": 0,
+      "last_observed": 1777001595,
+      "props": {
+        "service": "frontend",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "language": "nodejs",
+        "telemetry_client": "OpenTelemetry"
+      }
+    },
+    {
+      "id": "ad35648bfcbfce00ef7302048e069657",
+      "type": "k8s.cluster",
+      "name": "ad35648bfcbf",
+      "first_observed": 1779207729,
+      "last_observed": 1779207729,
+      "props": {
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "region_id": "cn-hongkong"
+      }
+    },
+    {
+      "id": "0375934342a7f2b01ee80cbbbf203c44",
+      "type": "k8s.namespace",
+      "name": "cms-demo",
+      "first_observed": 1766990984,
+      "last_observed": 1779207585,
+      "props": {
+        "name": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "c7a0773db2fbddfed22fffa0d68207ff",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.2.71",
+      "first_observed": 1766990984,
+      "last_observed": 1777115985,
+      "props": {
+        "name": "cn-hongkong.10.0.2.71",
+        "internal_ip": "10.0.2.71",
+        "host_name": "cn-hongkong.10.0.2.71",
+        "provider_id": "cn-hongkong.<ecs05>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "91b70c71241fcadb0a9fd6ae7f4ddd0a",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.16.64",
+      "first_observed": 1770126687,
+      "last_observed": 1777115985,
+      "props": {
+        "name": "cn-hongkong.10.0.16.64",
+        "internal_ip": "10.0.16.64",
+        "host_name": "cn-hongkong.10.0.16.64",
+        "provider_id": "cn-hongkong.<ecs01>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "9240a2aa826307c003a25fed9bc9a1d7",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.16.65",
+      "first_observed": 1770126688,
+      "last_observed": 1777115985,
+      "props": {
+        "name": "cn-hongkong.10.0.16.65",
+        "internal_ip": "10.0.16.65",
+        "host_name": "cn-hongkong.10.0.16.65",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "5c84b4649c75deeacfbd4149e3c8b496",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.1.55",
+      "first_observed": 1766990984,
+      "last_observed": 1777116039,
+      "props": {
+        "name": "cn-hongkong.10.0.1.55",
+        "internal_ip": "10.0.1.55",
+        "host_name": "cn-hongkong.10.0.1.55",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "54822d2959721bfc645f24ac2f5a3217",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.1.69",
+      "first_observed": 1766990984,
+      "last_observed": 1777116015,
+      "props": {
+        "name": "cn-hongkong.10.0.1.69",
+        "internal_ip": "10.0.1.69",
+        "host_name": "cn-hongkong.10.0.1.69",
+        "provider_id": "cn-hongkong.<ecs03>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "e9ff88d0d4435e77b15e4cc955e04836",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.1.107",
+      "first_observed": 1770126688,
+      "last_observed": 1777116004,
+      "props": {
+        "name": "cn-hongkong.10.0.1.107",
+        "internal_ip": "10.0.1.107",
+        "host_name": "cn-hongkong.10.0.1.107",
+        "provider_id": "cn-hongkong.<ecs04>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "066a298bf0d2fe2cafd368d537bec8ce",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.2.35",
+      "first_observed": 1766990984,
+      "last_observed": 1777116087,
+      "props": {
+        "name": "cn-hongkong.10.0.2.35",
+        "internal_ip": "10.0.2.35",
+        "host_name": "cn-hongkong.10.0.2.35",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "8067a48040a05d70fd9f26a95c105f78",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.16.66",
+      "first_observed": 1770126687,
+      "last_observed": 1777115985,
+      "props": {
+        "name": "cn-hongkong.10.0.16.66",
+        "internal_ip": "10.0.16.66",
+        "host_name": "cn-hongkong.10.0.16.66",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"True\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "a1d751f4e4445ecb1a92f5eafc5f006c",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.2.59",
+      "first_observed": 1766990984,
+      "last_observed": 1777116026,
+      "props": {
+        "name": "cn-hongkong.10.0.2.59",
+        "internal_ip": "10.0.2.59",
+        "host_name": "cn-hongkong.10.0.2.59",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "f97f547e9f5113a60d60db8836b0def6",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.1.49",
+      "first_observed": 1766990984,
+      "last_observed": 1777116084,
+      "props": {
+        "name": "cn-hongkong.10.0.1.49",
+        "internal_ip": "10.0.1.49",
+        "host_name": "cn-hongkong.10.0.1.49",
+        "provider_id": "cn-hongkong.<ecs02>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "1936f4306fa6e55ef94d004cf00419c2",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.2.37",
+      "first_observed": 1766990984,
+      "last_observed": 1777116075,
+      "props": {
+        "name": "cn-hongkong.10.0.2.37",
+        "internal_ip": "10.0.2.37",
+        "host_name": "cn-hongkong.10.0.2.37",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "b0d99a1e51770fed007115fe222c39fe",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.2.58",
+      "first_observed": 1766990984,
+      "last_observed": 1777116106,
+      "props": {
+        "name": "cn-hongkong.10.0.2.58",
+        "internal_ip": "10.0.2.58",
+        "host_name": "cn-hongkong.10.0.2.58",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "7ebab0534e460fa3d6eefe3118cb1294",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.1.65",
+      "first_observed": 1766990984,
+      "last_observed": 1777115985,
+      "props": {
+        "name": "cn-hongkong.10.0.1.65",
+        "internal_ip": "10.0.1.65",
+        "host_name": "cn-hongkong.10.0.1.65",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "aeead5a461cc3ccd5dd92b0ce139ce68",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.1.139",
+      "first_observed": 1770126688,
+      "last_observed": 1777115985,
+      "props": {
+        "name": "cn-hongkong.10.0.1.139",
+        "internal_ip": "10.0.1.139",
+        "host_name": "cn-hongkong.10.0.1.139",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "b3b2ffabc65e72425b34ea6a0caa18da",
+      "type": "k8s.node",
+      "name": "cn-hongkong.10.0.1.56",
+      "first_observed": 1766990984,
+      "last_observed": 1777116104,
+      "props": {
+        "name": "cn-hongkong.10.0.1.56",
+        "internal_ip": "10.0.1.56",
+        "host_name": "cn-hongkong.10.0.1.56",
+        "provider_id": "cn-hongkong.<ecs0X>",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "status": "[{\"status\":\"True\",\"type\":\"SufficientIP\"},{\"status\":\"False\",\"type\":\"NodePIDPressure\"},{\"status\":\"False\",\"type\":\"SystemdOffline\"},{\"status\":\"False\",\"type\":\"KernelDeadlock\"},{\"status\":\"False\",\"type\":\"ReadonlyFilesystem\"},{\"status\":\"False\",\"type\":\"DockerOffline\"},{\"status\":\"False\",\"type\":\"InstanceExpired\"},{\"status\":\"False\",\"type\":\"NTPProblem\"},{\"status\":\"False\",\"type\":\"RuntimeOffline\"},{\"status\":\"False\",\"type\":\"InodesPressure\"},{\"status\":\"False\",\"type\":\"MemoryPressure\"},{\"status\":\"False\",\"type\":\"DiskPressure\"},{\"status\":\"False\",\"type\":\"PIDPressure\"},{\"status\":\"True\",\"type\":\"Ready\"}]"
+      }
+    },
+    {
+      "id": "db5d24dd9258a55fe0d82b299163d0b5",
+      "type": "k8s.persistentvolume",
+      "name": "l3reg-pv-test",
+      "first_observed": 1776357626,
+      "last_observed": 1779207585,
+      "props": {
+        "name": "l3reg-pv-test"
+      }
+    },
+    {
+      "id": "69acc17a84f4ed19c0e3d8ae150a2eb4",
+      "type": "k8s.storageclass",
+      "name": "alicloud-disk-efficiency",
+      "first_observed": 1766990984,
+      "last_observed": 1779207585,
+      "props": {
+        "name": "alicloud-disk-efficiency"
+      }
+    },
+    {
+      "id": "1c8c256a2de689572cbd61f9094be837",
+      "type": "k8s.storageclass",
+      "name": "alicloud-disk-essd",
+      "first_observed": 1766990984,
+      "last_observed": 1779207585,
+      "props": {
+        "name": "alicloud-disk-essd"
+      }
+    },
+    {
+      "id": "e855443ee53ea3ba32e7ddce1d3b4ae6",
+      "type": "k8s.storageclass",
+      "name": "alicloud-disk-ssd",
+      "first_observed": 1766990984,
+      "last_observed": 1779207585,
+      "props": {
+        "name": "alicloud-disk-ssd"
+      }
+    },
+    {
+      "id": "8e0206c920bb5f0c38e151e7ffd42f06",
+      "type": "k8s.storageclass",
+      "name": "alicloud-disk-topology-alltype",
+      "first_observed": 1766990984,
+      "last_observed": 1779207585,
+      "props": {
+        "name": "alicloud-disk-topology-alltype"
+      }
+    },
+    {
+      "id": "d7a7899b0bef364781b3e4cf9cc9b707",
+      "type": "apm.external.database",
+      "name": "rm-j6c22np805ya348q1.mysql.cnhk.rds.aliyuncs.com:3306",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "rm-j6c22np805ya348q1.mysql.cnhk.rds.aliyuncs.com:3306",
+        "call_type": "mysql",
+        "region_id": "cn-hongkong"
+      }
+    },
+    {
+      "id": "5c370cc3751a5504bdc7638eff1bf10c",
+      "type": "apm.external.http_client",
+      "name": "quote:8080",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "quote:8080"
+      }
+    },
+    {
+      "id": "474c2072f1451452bbb1abf29cc68b10",
+      "type": "apm.external.http_client",
+      "name": "inventory:9090",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "inventory:9090"
+      }
+    },
+    {
+      "id": "ce143d26cf40ac189c58c8a0d2414b0a",
+      "type": "apm.external.http_client",
+      "name": "flagd:8015",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "flagd:8015"
+      }
+    },
+    {
+      "id": "f0f48dba04dac18cb90a8f45fd518625",
+      "type": "apm.external.http_client",
+      "name": "email:8080",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "email:8080"
+      }
+    },
+    {
+      "id": "a91abd12b9ee4f2b054fad94d5ab4388",
+      "type": "apm.external.http_client",
+      "name": "router frontend egress",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "router frontend egress"
+      }
+    },
+    {
+      "id": "6cedcc5fe1285eeedccc394f1a525f40",
+      "type": "apm.external.http_client",
+      "name": "router image-provider egress",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "router image-provider egress"
+      }
+    },
+    {
+      "id": "4d0925b22b742ff7a5b20f15d852d260",
+      "type": "apm.external.http_client",
+      "name": "router flagservice egress",
+      "first_observed": 0,
+      "last_observed": 1777098193,
+      "props": {
+        "instance_addr": "router flagservice egress"
+      }
+    },
+    {
+      "id": "12c500ed0b7879105fb46af0f246be87",
+      "type": "apm.external.message",
+      "name": "orders",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "orders",
+        "call_type": "kafka_client",
+        "region_id": "cn-hongkong"
+      }
+    },
+    {
+      "id": "09b77977ece939974c583863691d1d67",
+      "type": "apm.external.rpc_client",
+      "name": "/oteldemo.ShippingService/GetQuote",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "/oteldemo.ShippingService/GetQuote"
+      }
+    },
+    {
+      "id": "523af537946b79c4f8369ed39ba78605",
+      "type": "apm.external.rpc_client",
+      "name": "ad",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "ad"
+      }
+    },
+    {
+      "id": "a4d1fdf4a7cd746c56dbb5241779104c",
+      "type": "apm.external.rpc_client",
+      "name": "product-catalog",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "product-catalog"
+      }
+    },
+    {
+      "id": "4a3540083187f902c246d8e11e2a3ff1",
+      "type": "apm.external.rpc_client",
+      "name": "/oteldemo.ShippingService/ShipOrder",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "/oteldemo.ShippingService/ShipOrder"
+      }
+    },
+    {
+      "id": "22d395812a3795ccd16f64590544b3f9",
+      "type": "apm.external.rpc_client",
+      "name": "/oteldemo.PaymentService/Charge",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "/oteldemo.PaymentService/Charge"
+      }
+    },
+    {
+      "id": "1d1c9abbd8fd9bc06d590badcf186bd1",
+      "type": "apm.external.rpc_client",
+      "name": "/oteldemo.CartService/EmptyCart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "/oteldemo.CartService/EmptyCart"
+      }
+    },
+    {
+      "id": "54013ba69c196820e56801f1ef5aad54",
+      "type": "apm.external.rpc_client",
+      "name": "cart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "cart"
+      }
+    },
+    {
+      "id": "58b0359aa2c6a6cbeecdb44b74d39724",
+      "type": "apm.external.rpc_client",
+      "name": "/oteldemo.CurrencyService/Convert",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "/oteldemo.CurrencyService/Convert"
+      }
+    },
+    {
+      "id": "41514838612df3890107dfa9e39e23d1",
+      "type": "apm.external.rpc_client",
+      "name": "/oteldemo.CartService/GetCart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "/oteldemo.CartService/GetCart"
+      }
+    },
+    {
+      "id": "5ba88d25175d87cb5977cb56e01ed17c",
+      "type": "apm.external.rpc_client",
+      "name": "recommendation",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "recommendation"
+      }
+    },
+    {
+      "id": "177627f91af678a9b03e993f1a91917f",
+      "type": "apm.external.rpc_client",
+      "name": "checkout",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "checkout"
+      }
+    },
+    {
+      "id": "9bb8ef2fc6a21bbe8729bd095c9e75fa",
+      "type": "apm.external.rpc_client",
+      "name": "/oteldemo.ProductCatalogService/GetProduct",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "instance_addr": "/oteldemo.ProductCatalogService/GetProduct"
+      }
+    },
+    {
+      "id": "1af0389838508d7016a9841eb6273962",
+      "type": "apm.external.rpc_client",
+      "name": "currency",
+      "first_observed": 0,
+      "last_observed": 1777092433,
+      "props": {
+        "instance_addr": "currency"
+      }
+    },
+    {
+      "id": "6e1676cca090150960f2e06753af8939",
+      "type": "apm.instance",
+      "name": "fraud-detection",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "58a3b756b31dd6fc7580c8bbaf46a1a1",
+      "type": "apm.instance",
+      "name": "email",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "4fa59dd54a6f1827af408fc65b32a97f",
+      "type": "apm.instance",
+      "name": "product-catalog",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "d1f1b0349fadcfdc23ca3918ac448623",
+      "type": "apm.instance",
+      "name": "frontend-proxy",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "451f9d79aa9adef5c515e267392f567e",
+      "type": "apm.instance",
+      "name": "cart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "fa548039d9a7b76db9ec70507e734faf",
+      "type": "apm.instance",
+      "name": "frontend-proxy",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "bfecdeaa89649cbfac1ac329277acd0c",
+      "type": "apm.instance",
+      "name": "fraud-detection",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "d649dcb50618ceef51d8ba57f13d2288",
+      "type": "apm.instance",
+      "name": "email",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "cd0b2acca3b0ecf8f3453656ed08e6af",
+      "type": "apm.instance",
+      "name": "cart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "48efad9042ff9e6008f8d3a27c03761d",
+      "type": "apm.instance",
+      "name": "frontend",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "2d7b6ce3249c8c9c0522363b6474be94",
+      "type": "apm.instance",
+      "name": "image-provider",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "07701fda8251906f1bd87b14d34fc002",
+      "type": "apm.instance",
+      "name": "inventory",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "ea301d80039bdbe70af0c300822a09b8",
+      "type": "apm.instance",
+      "name": "product-catalog",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "f61a7c6f68875a5ff17cb8ea4444e467",
+      "type": "apm.instance",
+      "name": "image-provider",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "e0d75570cb20574eb2bcf1d9e033169b",
+      "type": "apm.instance",
+      "name": "fraud-detection",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "c93118395663d521bce10fef08a7c47a",
+      "type": "apm.instance",
+      "name": "product-catalog",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "8dab0cc6e55893cec1caadfc16fd0b7c",
+      "type": "apm.instance",
+      "name": "frontend",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "2204a5fb2eda60e61ec3d2e2a5dd04e9",
+      "type": "apm.instance",
+      "name": "frontend",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "8c1aa8de8978e91a0a0ad79bf9141203",
+      "type": "apm.instance",
+      "name": "image-provider",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "c6cbf1b49bcdb7d33859d04c79b97bf8",
+      "type": "apm.instance",
+      "name": "inventory",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "7fb113e159d1fa7ccdfc641acf1870ad",
+      "type": "apm.instance",
+      "name": "inventory",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "fa185acb90d49c6a2086f3f5a12e79f7",
+      "type": "apm.instance",
+      "name": "currency",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "3e3627a07459dcc2affee8c07fc04c82",
+      "type": "apm.instance",
+      "name": "email",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "eab531e9b188fe065edbebdbf839c609",
+      "type": "apm.instance",
+      "name": "frontend-proxy",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {}
+    },
+    {
+      "id": "455f921f0afc16175724d9f27faf18e4",
+      "type": "apm.operation",
+      "name": "product-catalog::oteldemo.ProductCatalogService/ListProducts",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "product-catalog",
+        "operation": "oteldemo.ProductCatalogService/ListProducts"
+      }
+    },
+    {
+      "id": "6f1eec9b66ae1316ed52e0cc85696aeb",
+      "type": "apm.operation",
+      "name": "payment::grpc.oteldemo.PaymentService/Charge",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "payment",
+        "operation": "grpc.oteldemo.PaymentService/Charge"
+      }
+    },
+    {
+      "id": "c828a8cbda8d3b90ca2f9119b07c95c8",
+      "type": "apm.operation",
+      "name": "frontend::POST /app",
+      "first_observed": 0,
+      "last_observed": 1777096513,
+      "props": {
+        "service": "frontend",
+        "operation": "POST /app"
+      }
+    },
+    {
+      "id": "70f44dcafe5c48a05e3a0fbd3ac346d4",
+      "type": "apm.operation",
+      "name": "fraud-detection::orders process",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "fraud-detection",
+        "operation": "orders process"
+      }
+    },
+    {
+      "id": "453629524db3a9aeea0620d6b40fd2f7",
+      "type": "apm.operation",
+      "name": "currency::Currency/Convert",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "currency",
+        "operation": "Currency/Convert"
+      }
+    },
+    {
+      "id": "e433b3f842dc4e525a834701cc603c28",
+      "type": "apm.operation",
+      "name": "cart::POST /oteldemo.CartService/AddItem",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "cart",
+        "operation": "POST /oteldemo.CartService/AddItem"
+      }
+    },
+    {
+      "id": "c6388887e91aa969bdf210fe96a48098",
+      "type": "apm.operation",
+      "name": "frontend::POST",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "POST"
+      }
+    },
+    {
+      "id": "afa894cb32aaf3beb1e86bf5a1f31649",
+      "type": "apm.operation",
+      "name": "frontend::GET /api/data",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /api/data"
+      }
+    },
+    {
+      "id": "bbde6f901cd0a2e6b82e9351b79b88b9",
+      "type": "apm.operation",
+      "name": "quote::POST /getquote",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "quote",
+        "operation": "POST /getquote"
+      }
+    },
+    {
+      "id": "3b0aaa9cc6d1f48a6fce24d7b439f478",
+      "type": "apm.operation",
+      "name": "inventory::/actuator/health",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "inventory",
+        "operation": "/actuator/health"
+      }
+    },
+    {
+      "id": "2c6178d0df0f42878da5933795f7502e",
+      "type": "apm.operation",
+      "name": "frontend::GET /api/cart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /api/cart"
+      }
+    },
+    {
+      "id": "2f6f09b9df7111c552c5b3e5d8dde64a",
+      "type": "apm.operation",
+      "name": "frontend::GET /api/products/{productId}",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /api/products/{productId}"
+      }
+    },
+    {
+      "id": "9052fc8c9077971fe3a1e1bf4bdbed5a",
+      "type": "apm.operation",
+      "name": "ad::oteldemo.AdService/GetAds",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "ad",
+        "operation": "oteldemo.AdService/GetAds"
+      }
+    },
+    {
+      "id": "c01a1596a0d45bb7a531f16689910a43",
+      "type": "apm.operation",
+      "name": "inventory::InventoryMonitoringService.checkAndRestockInventory",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "inventory",
+        "operation": "InventoryMonitoringService.checkAndRestockInventory"
+      }
+    },
+    {
+      "id": "d219413245b68b297976412bbee076cf",
+      "type": "apm.operation",
+      "name": "checkout::/oteldemo.CheckoutService/PlaceOrder",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "checkout",
+        "operation": "/oteldemo.CheckoutService/PlaceOrder"
+      }
+    },
+    {
+      "id": "909266cc78c3ff73b19ed517712d5e2c",
+      "type": "apm.operation",
+      "name": "email::POST /send_order_confirmation",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "email",
+        "operation": "POST /send_order_confirmation"
+      }
+    },
+    {
+      "id": "7bb1b1512922edfdefac66f31c640a81",
+      "type": "apm.operation",
+      "name": "cart::POST /oteldemo.CartService/GetCart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "cart",
+        "operation": "POST /oteldemo.CartService/GetCart"
+      }
+    },
+    {
+      "id": "fb364e80b42f16618b6de13f3579b6ab",
+      "type": "apm.operation",
+      "name": "frontend::GET /api/recommendations",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /api/recommendations"
+      }
+    },
+    {
+      "id": "d50c84b68b0c836ed11578cb35b70b9f",
+      "type": "apm.operation",
+      "name": "frontend::GET /api/products",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /api/products"
+      }
+    },
+    {
+      "id": "73aefe447080e4c6e6776b3db64f8998",
+      "type": "apm.operation",
+      "name": "image-provider::image-provider",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "image-provider",
+        "operation": "image-provider"
+      }
+    },
+    {
+      "id": "9e69280c47b4c2f35576402946e3b714",
+      "type": "apm.operation",
+      "name": "frontend::POST /api/cart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "POST /api/cart"
+      }
+    },
+    {
+      "id": "0730d69c0818717e0d0e987385f3a3ab",
+      "type": "apm.operation",
+      "name": "inventory::/actuator/health/**",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "inventory",
+        "operation": "/actuator/health/**"
+      }
+    },
+    {
+      "id": "3ff65eef282fcdd303aebab1c132fe9f",
+      "type": "apm.operation",
+      "name": "cart::POST /oteldemo.CartService/EmptyCart",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "cart",
+        "operation": "POST /oteldemo.CartService/EmptyCart"
+      }
+    },
+    {
+      "id": "1ca0fe8faf6164a7e5e02fadbeb8c993",
+      "type": "apm.operation",
+      "name": "shipping::oteldemo.ShippingService/ShipOrder",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "shipping",
+        "operation": "oteldemo.ShippingService/ShipOrder"
+      }
+    },
+    {
+      "id": "d1c2b3981457bf9b5c5beefbbf246ebc",
+      "type": "apm.operation",
+      "name": "frontend-proxy::ingress",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend-proxy",
+        "operation": "ingress"
+      }
+    },
+    {
+      "id": "1948ddf615871ac6fc18d01f72817e86",
+      "type": "apm.operation",
+      "name": "product-catalog::oteldemo.ProductCatalogService/GetProduct",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "product-catalog",
+        "operation": "oteldemo.ProductCatalogService/GetProduct"
+      }
+    },
+    {
+      "id": "28887014538b3aeed572d8e4810f6d88",
+      "type": "apm.operation",
+      "name": "frontend::GET",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "GET"
+      }
+    },
+    {
+      "id": "d5479ffd165e089a67b3d4eeb8519fb7",
+      "type": "apm.operation",
+      "name": "frontend::POST /api/checkout",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "POST /api/checkout"
+      }
+    },
+    {
+      "id": "d4bd2837257aa9b4e96fa92507b51d78",
+      "type": "apm.operation",
+      "name": "shipping::oteldemo.ShippingService/GetQuote",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "shipping",
+        "operation": "oteldemo.ShippingService/GetQuote"
+      }
+    },
+    {
+      "id": "cabd97bdaf1d9dab60eef857cbf02d37",
+      "type": "apm.operation",
+      "name": "frontend::GET /",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /"
+      }
+    },
+    {
+      "id": "162799adab6799326676266a2c96cf3e",
+      "type": "apm.operation",
+      "name": "inventory::/api/v1/inventory/{productId}",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "inventory",
+        "operation": "/api/v1/inventory/{productId}"
+      }
+    },
+    {
+      "id": "3f93a71da8d6346463078212dc8be3e0",
+      "type": "apm.operation",
+      "name": "accounting::orders receive",
+      "first_observed": 0,
+      "last_observed": 1777098673,
+      "props": {
+        "service": "accounting",
+        "operation": "orders receive"
+      }
+    },
+    {
+      "id": "c45327213f911bdc237c71c66ef7d4a8",
+      "type": "apm.operation",
+      "name": "frontend::GET /{PATTERN}",
+      "first_observed": 0,
+      "last_observed": 1777092193,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /{PATTERN}"
+      }
+    },
+    {
+      "id": "e3bc61b6ebea0c7c3b256b5b97e5d5f7",
+      "type": "apm.operation",
+      "name": "currency::Currency/GetSupportedCurrencies",
+      "first_observed": 0,
+      "last_observed": 1777092433,
+      "props": {
+        "service": "currency",
+        "operation": "Currency/GetSupportedCurrencies"
+      }
+    },
+    {
+      "id": "489f26fda14ce299a39866bd655cfc59",
+      "type": "apm.operation",
+      "name": "frontend::GET /api/currency",
+      "first_observed": 0,
+      "last_observed": 1777092433,
+      "props": {
+        "service": "frontend",
+        "operation": "GET /api/currency"
+      }
+    },
+    {
+      "id": "9124854f18573aaefc053e0b24a8ae85",
+      "type": "apm.operation",
+      "name": "frontend::POST /",
+      "first_observed": 0,
+      "last_observed": 1777098493,
+      "props": {
+        "service": "frontend",
+        "operation": "POST /"
+      }
+    },
+    {
+      "id": "226f0b4ac462f5d6f17ccd69da4bb622",
+      "type": "apm.operation",
+      "name": "frontend::POST /api/route",
+      "first_observed": 0,
+      "last_observed": 1777092493,
+      "props": {
+        "service": "frontend",
+        "operation": "POST /api/route"
+      }
+    },
+    {
+      "id": "bb7be48b1dfd3d47177939e1b5e7c001",
+      "type": "apm.operation",
+      "name": "frontend::POST /api",
+      "first_observed": 0,
+      "last_observed": 1777093573,
+      "props": {
+        "service": "frontend",
+        "operation": "POST /api"
+      }
+    },
+    {
+      "id": "4331a591af8b537aa7adcfd81b247d14",
+      "type": "apm.operation",
+      "name": "frontend::POST /_next/server",
+      "first_observed": 0,
+      "last_observed": 1777096753,
+      "props": {
+        "service": "frontend",
+        "operation": "POST /_next/server"
+      }
+    },
+    {
+      "id": "c32e8a0380b24d0f3c89dd8e823c5e21",
+      "type": "k8s.configmap",
+      "name": "istio-templates",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "istio-templates",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "a0f141d1f9ab8733df665df12931551a",
+      "type": "k8s.configmap",
+      "name": "mysql-mysql-config",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "mysql-mysql-config",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "f03d58759bee63a51fb0261d97e8e501",
+      "type": "k8s.configmap",
+      "name": "otel-collector",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "otel-collector",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "6d7070968a3e0b609733fe3b54f8030a",
+      "type": "k8s.configmap",
+      "name": "prometheus",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "prometheus",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "e18f008de00a37381f5577d3a0c8238c",
+      "type": "k8s.configmap",
+      "name": "chaos-mesh",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "chaos-mesh",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "15d891e437cfbb665d267e1d4f247a54",
+      "type": "k8s.configmap",
+      "name": "flagd-config",
+      "first_observed": 1773048920,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "flagd-config",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "7e2e2216de80d2e4f55561da89d92028",
+      "type": "k8s.configmap",
+      "name": "product-catalog-products",
+      "first_observed": 1773048921,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "product-catalog-products",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "6dec9fe0ccc2f9ed8a2a011044f06846",
+      "type": "k8s.configmap",
+      "name": "kube-root-ca.crt",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "kube-root-ca.crt",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "5a863ebe27c1773362748e033e3c5713",
+      "type": "k8s.configmap",
+      "name": "frontend-proxy-envoy-config",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-proxy-envoy-config",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "8271c058f22df8737986f7c5aa7ea83c",
+      "type": "k8s.cronjob",
+      "name": "otel-demo-rebalance",
+      "first_observed": 1766990985,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "otel-demo-rebalance"
+      }
+    },
+    {
+      "id": "6c5b459ebcd3c71caa1e9f84283676ab",
+      "type": "k8s.ingress",
+      "name": "cms-otel-apig",
+      "first_observed": 1766993583,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "cms-otel-apig"
+      }
+    },
+    {
+      "id": "d81c6f7d5be4d269b69aa4e3c74d637e",
+      "type": "k8s.job",
+      "name": "otel-demo-rebalance-29555430",
+      "first_observed": 1773325800,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "otel-demo-rebalance-29555430"
+      }
+    },
+    {
+      "id": "64e3ad2831865535c8c8f40629f69f33",
+      "type": "k8s.job",
+      "name": "otel-demo-rebalance-29555460",
+      "first_observed": 1773327600,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "otel-demo-rebalance-29555460"
+      }
+    },
+    {
+      "id": "e85b74e78e65e7c6282bd083de183601",
+      "type": "k8s.job",
+      "name": "otel-demo-rebalance-29555490",
+      "first_observed": 1773329400,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "otel-demo-rebalance-29555490"
+      }
+    },
+    {
+      "id": "588da07410210987bb9313e36682d840",
+      "type": "k8s.pod",
+      "name": "quote-74498b4fb6-7nbf2",
+      "first_observed": 1777024864,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "quote-74498b4fb6-7nbf2",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.143",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "0a0a46466fbad48d237892c4d0ce0524",
+      "type": "k8s.pod",
+      "name": "payment-696d688896-klnbs",
+      "first_observed": 1776437962,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "payment-696d688896-klnbs",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.157",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "66c3f47e252c52180eae61ca0818c990",
+      "type": "k8s.pod",
+      "name": "frontend-proxy-67d64dc4f8-4ptg6",
+      "first_observed": 1773329409,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-proxy-67d64dc4f8-4ptg6",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.175",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "576a448cfa33b9dba1ac78a7aaca3f8d",
+      "type": "k8s.pod",
+      "name": "product-catalog-6b8d76c6f-zkf5z",
+      "first_observed": 1777013623,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "product-catalog-6b8d76c6f-zkf5z",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.32",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "0a0f7aa4665c9c35825580573f3caf23",
+      "type": "k8s.pod",
+      "name": "accounting-cf54cf94b-qtq2n",
+      "first_observed": 1777090263,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "accounting-cf54cf94b-qtq2n",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.45",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "ad4925dd701a949a3f91a056c41d82bd",
+      "type": "k8s.pod",
+      "name": "email-7f697b9b59-wz87r",
+      "first_observed": 1776834241,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "email-7f697b9b59-wz87r",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.128",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "b25aa7862c9c13bdd6e10924b7abc884",
+      "type": "k8s.pod",
+      "name": "cart-ddddd7787-jctcr",
+      "first_observed": 1777033782,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "cart-ddddd7787-jctcr",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.153",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "a482ab2e92b2bb965273d49e5effcd73",
+      "type": "k8s.pod",
+      "name": "cart-ddddd7787-mjqhp",
+      "first_observed": 1776694917,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "cart-ddddd7787-mjqhp",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.82",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "c8d96a12176bdf6e71ead10b5a311bf7",
+      "type": "k8s.pod",
+      "name": "fraud-detection-64dff58c64-nsfnf",
+      "first_observed": 1776437462,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "fraud-detection-64dff58c64-nsfnf",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.56",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "5c474d53ff5f79786d600fa6f537e654",
+      "type": "k8s.pod",
+      "name": "quote-74498b4fb6-ddwtp",
+      "first_observed": 1777024864,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "quote-74498b4fb6-ddwtp",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.190",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "63cdea7564058511e3e8c7a75ebb0823",
+      "type": "k8s.pod",
+      "name": "payment-696d688896-d2z22",
+      "first_observed": 1776437966,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "payment-696d688896-d2z22",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.252",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "5e9c6287e609b274290f7cc4c7db3e66",
+      "type": "k8s.pod",
+      "name": "currency-84db6df9f6-sjpb2",
+      "first_observed": 1776927703,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "currency-84db6df9f6-sjpb2",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.123",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "c501322c9763fadd037087c40159d38f",
+      "type": "k8s.pod",
+      "name": "ad-59d75696db-lcsdf",
+      "first_observed": 1776870975,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "ad-59d75696db-lcsdf",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.250",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "41cb3d5f4ab5cd618e5f099fa7230baa",
+      "type": "k8s.pod",
+      "name": "inventory-658c476d-8cbsl",
+      "first_observed": 1776845231,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "inventory-658c476d-8cbsl",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.184",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "59fef96689cd176c246b34ef8a3f1024",
+      "type": "k8s.pod",
+      "name": "currency-84db6df9f6-gt5rn",
+      "first_observed": 1776927703,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "currency-84db6df9f6-gt5rn",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.142",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "fe89a21966d62245f3bd959e53f62d66",
+      "type": "k8s.pod",
+      "name": "cart-ddddd7787-dcw5v",
+      "first_observed": 1776694912,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "cart-ddddd7787-dcw5v",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.26",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "227e6b0974f37e8c8090552044554e23",
+      "type": "k8s.pod",
+      "name": "email-7f697b9b59-p6dqr",
+      "first_observed": 1776834239,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "email-7f697b9b59-p6dqr",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.135",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "a27dbe8f1db2dbc32aa9f1ae4ea7af7f",
+      "type": "k8s.pod",
+      "name": "frontend-86465b665-wmk79",
+      "first_observed": 1776696323,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-86465b665-wmk79",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.176",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "c36a4b7b911ddf9857d521e428e9cdc7",
+      "type": "k8s.pod",
+      "name": "image-provider-7d994447fb-wjssp",
+      "first_observed": 1776696323,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "image-provider-7d994447fb-wjssp",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.73",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "c2f1fbcb1b18f89fb1b2768ba8cebc6b",
+      "type": "k8s.pod",
+      "name": "frontend-86465b665-pjrnt",
+      "first_observed": 1776662505,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-86465b665-pjrnt",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.33",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "d41a96cb1c8866ddb6fbbf0b508dcafb",
+      "type": "k8s.pod",
+      "name": "accounting-cf54cf94b-cwql8",
+      "first_observed": 1777090263,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "accounting-cf54cf94b-cwql8",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.3",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "43df328790aded19b0753760e9dfe4b8",
+      "type": "k8s.pod",
+      "name": "product-catalog-6b8d76c6f-jwhc4",
+      "first_observed": 1777013621,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "product-catalog-6b8d76c6f-jwhc4",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.20.188",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "be62f8f96eda206c7bb7179177f59f6c",
+      "type": "k8s.pod",
+      "name": "checkout-7f85756876-7sq8n",
+      "first_observed": 1777090484,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "checkout-7f85756876-7sq8n",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.85",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "0b7ba44a6b0e1f50c0cc7ff1add39b7a",
+      "type": "k8s.pod",
+      "name": "currency-84db6df9f6-llz9j",
+      "first_observed": 1777033782,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "currency-84db6df9f6-llz9j",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.20.183",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "89bec737ed83029fe71ec9161750da07",
+      "type": "k8s.pod",
+      "name": "checkout-7f85756876-7gxmq",
+      "first_observed": 1777090494,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "checkout-7f85756876-7gxmq",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.147",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "521f5afe1109ac0939224a5e6e6acfd4",
+      "type": "k8s.pod",
+      "name": "inventory-658c476d-f5klt",
+      "first_observed": 1776845196,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "inventory-658c476d-f5klt",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.169",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "8f8f23504fb5942b88d55aacf2d58efb",
+      "type": "k8s.pod",
+      "name": "fraud-detection-64dff58c64-sfzz4",
+      "first_observed": 1776437464,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "fraud-detection-64dff58c64-sfzz4",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.228",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "70f3b543179af0342954ec2486d30a17",
+      "type": "k8s.pod",
+      "name": "checkout-7f85756876-zws5m",
+      "first_observed": 1777090489,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "checkout-7f85756876-zws5m",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.18",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "cf72dc7d82d4848fac4a02107dbccf78",
+      "type": "k8s.pod",
+      "name": "quote-74498b4fb6-5b2vb",
+      "first_observed": 1777024864,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "quote-74498b4fb6-5b2vb",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.136",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "d119f9f9cacefe89798a00f03ab8848c",
+      "type": "k8s.pod",
+      "name": "flagd-ffdf45b89-qmwrh",
+      "first_observed": 1773748954,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "flagd-ffdf45b89-qmwrh",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.225",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "5b42fa71714e892228b795ebfc7318b8",
+      "type": "k8s.pod",
+      "name": "frontend-86465b665-chd5b",
+      "first_observed": 1776437644,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-86465b665-chd5b",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.127",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "118fd82bd0f267d38fb3c7279a75e128",
+      "type": "k8s.pod",
+      "name": "ad-59d75696db-4rlvr",
+      "first_observed": 1777017911,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "ad-59d75696db-4rlvr",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.229",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "90b1fdd5ba3f46b1a6e7ba6f6ffd00b7",
+      "type": "k8s.pod",
+      "name": "product-catalog-6b8d76c6f-vbrb8",
+      "first_observed": 1777013622,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "product-catalog-6b8d76c6f-vbrb8",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.240",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "d28c7d1f42e72fd57f5ab71653a1e640",
+      "type": "k8s.pod",
+      "name": "recommendation-66b6dcd648-hvg6t",
+      "first_observed": 1777085458,
+      "last_observed": 1777093330,
+      "props": {
+        "name": "recommendation-66b6dcd648-hvg6t",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.100",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "8ff2a1919f52c5f810cac540155dd5df",
+      "type": "k8s.pod",
+      "name": "fraud-detection-64dff58c64-lwmkq",
+      "first_observed": 1776437468,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "fraud-detection-64dff58c64-lwmkq",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.20.193",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "afc55866b8a37d9dbfc67d84e70c575c",
+      "type": "k8s.pod",
+      "name": "payment-696d688896-gxcl2",
+      "first_observed": 1776437970,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "payment-696d688896-gxcl2",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.27",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "24c24f56ef67820f59eb1926380a7a7f",
+      "type": "k8s.pod",
+      "name": "ad-59d75696db-vtq4d",
+      "first_observed": 1777017911,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "ad-59d75696db-vtq4d",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.100",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "a4a5bd784de582d9481430f7caa27077",
+      "type": "k8s.pod",
+      "name": "frontend-proxy-67d64dc4f8-xz2fd",
+      "first_observed": 1773329411,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-proxy-67d64dc4f8-xz2fd",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.238",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "3bb6e67b3dcbe1ed1e0603a506606634",
+      "type": "k8s.pod",
+      "name": "accounting-cf54cf94b-l667d",
+      "first_observed": 1777090263,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "accounting-cf54cf94b-l667d",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.118",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "848713c066175e461f8a7088f54b37c9",
+      "type": "k8s.pod",
+      "name": "inventory-658c476d-9c9wh",
+      "first_observed": 1776845159,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "inventory-658c476d-9c9wh",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.164",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "4130542fd1534e358762725cb151654e",
+      "type": "k8s.pod",
+      "name": "image-provider-7d994447fb-5ltkj",
+      "first_observed": 1773329412,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "image-provider-7d994447fb-5ltkj",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.6",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "6a7c6bd05113739b30edc750f0614079",
+      "type": "k8s.pod",
+      "name": "recommendation-66b6dcd648-xzpm6",
+      "first_observed": 1777085442,
+      "last_observed": 1777093346,
+      "props": {
+        "name": "recommendation-66b6dcd648-xzpm6",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.54",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "ac305bf8717783a2ca68c618593170b6",
+      "type": "k8s.pod",
+      "name": "shipping-6b59997c88-sxgb8",
+      "first_observed": 1777013660,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "shipping-6b59997c88-sxgb8",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.171",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "4f7a0b5c7a7cd90da5850d8d79feec71",
+      "type": "k8s.pod",
+      "name": "image-provider-7d994447fb-pb5rn",
+      "first_observed": 1773329411,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "image-provider-7d994447fb-pb5rn",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.110",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "bce0bc6214f145a5dcdbab855e660c69",
+      "type": "k8s.pod",
+      "name": "frontend-proxy-67d64dc4f8-8c99b",
+      "first_observed": 1773329413,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-proxy-67d64dc4f8-8c99b",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.163",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "7c01af709ece1b02725ec7de4e5bf711",
+      "type": "k8s.pod",
+      "name": "shipping-6b59997c88-xd8q9",
+      "first_observed": 1777013632,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "shipping-6b59997c88-xd8q9",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.243",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "d1dc9e8b2594a4fa7780e44ac89aab7b",
+      "type": "k8s.pod",
+      "name": "email-7f697b9b59-r2c9g",
+      "first_observed": 1776834237,
+      "last_observed": 1777098449,
+      "props": {
+        "name": "email-7f697b9b59-r2c9g",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.149",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "5de5977c0f57918504c273e087edb8b9",
+      "type": "k8s.pod",
+      "name": "shipping-6b59997c88-cmqxz",
+      "first_observed": 1777013635,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "shipping-6b59997c88-cmqxz",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.244",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "b52248f1de6111879d95ef00aae1eb0c",
+      "type": "k8s.pod",
+      "name": "recommendation-66b6dcd648-vhcfb",
+      "first_observed": 1777085475,
+      "last_observed": 1777093313,
+      "props": {
+        "name": "recommendation-66b6dcd648-vhcfb",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.181",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "02acfbefc771c8e1b040bd395746d720",
+      "type": "k8s.pod",
+      "name": "recommendation-7654667784-z7kfd",
+      "first_observed": 1777093262,
+      "last_observed": 1777093958,
+      "props": {
+        "name": "recommendation-7654667784-z7kfd",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.112",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "565803333d8efc0676cde6d34b076cd5",
+      "type": "k8s.pod",
+      "name": "recommendation-7654667784-h6fcg",
+      "first_observed": 1777093282,
+      "last_observed": 1777093975,
+      "props": {
+        "name": "recommendation-7654667784-h6fcg",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.164",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "bb2108a3eb8757cec0647d2abbffd570",
+      "type": "k8s.pod",
+      "name": "recommendation-7654667784-tg2sp",
+      "first_observed": 1777093299,
+      "last_observed": 1777093994,
+      "props": {
+        "name": "recommendation-7654667784-tg2sp",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.31",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "a99f485e5d7e9839ce8460abf2b0010b",
+      "type": "k8s.pod",
+      "name": "recommendation-5d4fbb5779-9mq4c",
+      "first_observed": 1777093907,
+      "last_observed": 1777094011,
+      "props": {
+        "name": "recommendation-5d4fbb5779-9mq4c",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.87",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "82ffdec197560ffad6cea7b2594f96f0",
+      "type": "k8s.pod",
+      "name": "recommendation-5d4fbb5779-2lp8g",
+      "first_observed": 1777093927,
+      "last_observed": 1777094026,
+      "props": {
+        "name": "recommendation-5d4fbb5779-2lp8g",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.16.160",
+        "status": "Failed"
+      }
+    },
+    {
+      "id": "8b28b8f919bb5fa1680fd09a1ed97690",
+      "type": "k8s.pod",
+      "name": "recommendation-5d4fbb5779-65ftz",
+      "first_observed": 1777093944,
+      "last_observed": 1777093958,
+      "props": {
+        "name": "recommendation-5d4fbb5779-65ftz",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.54",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": "ce7bdf847ad01b056614396761f1b6d6",
+      "type": "k8s.pod",
+      "name": "recommendation-6464fcf674-przgl",
+      "first_observed": 1777093946,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "recommendation-6464fcf674-przgl",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.2.140",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "622ad55d079dbdbd4f313e0e37d1bed6",
+      "type": "k8s.pod",
+      "name": "recommendation-6464fcf674-8qvj5",
+      "first_observed": 1777093962,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "recommendation-6464fcf674-8qvj5",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.1.112",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "436e27a4278b233e810d1d07f5ac6950",
+      "type": "k8s.pod",
+      "name": "recommendation-6464fcf674-m9jw9",
+      "first_observed": 1777093980,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "recommendation-6464fcf674-m9jw9",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "instance_ip": "10.0.17.54",
+        "status": "Running"
+      }
+    },
+    {
+      "id": "8d8686c0e0df5fd86f43e0bf938591e3",
+      "type": "k8s.service",
+      "name": "ad",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "ad",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "7b1e5d17a0ad1d6016ac59fa1ab0ff50",
+      "type": "k8s.service",
+      "name": "image-provider",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "image-provider",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "76e11823df2ccc17ea12cb61c0917a98",
+      "type": "k8s.service",
+      "name": "payment",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "payment",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "fc06128e4b4c3e00d1ff2dab1587fc0d",
+      "type": "k8s.service",
+      "name": "cart",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "cart",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "af2679d141fc313291e276608cddbc39",
+      "type": "k8s.service",
+      "name": "inventory",
+      "first_observed": 1773319908,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "inventory",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "93161b136615aa1a01aa52dc4e52ec36",
+      "type": "k8s.service",
+      "name": "recommendation",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "recommendation",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "2e5b4a766f281fb0ac428377ec2db0de",
+      "type": "k8s.service",
+      "name": "checkout",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "checkout",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "d6e36e3a07c2e0bbe6cd48667ec94c89",
+      "type": "k8s.service",
+      "name": "product-catalog",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "product-catalog",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "c63d8529c981b90036a1b7b6dd93a27f",
+      "type": "k8s.service",
+      "name": "frontend",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "f0018175c41828db53e9eee98ae959c4",
+      "type": "k8s.service",
+      "name": "quote",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "quote",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "ad640f10d78b50311874a70d012a8a71",
+      "type": "k8s.service",
+      "name": "currency",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "currency",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "9b9550abfc514d11adc5d40c72b986e1",
+      "type": "k8s.service",
+      "name": "flagd",
+      "first_observed": 1773048923,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "flagd",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "856e2cd6a6b67290aca498669e27da4c",
+      "type": "k8s.service",
+      "name": "frontend-proxy",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "frontend-proxy",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "7ec0e8ff446c5533cf9c519681cbc0e7",
+      "type": "k8s.service",
+      "name": "email",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "email",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "6df33a48069d6ced63f0e60452bd6ab4",
+      "type": "k8s.service",
+      "name": "shipping",
+      "first_observed": 1766990984,
+      "last_observed": 1777098285,
+      "props": {
+        "name": "shipping",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0"
+      }
+    },
+    {
+      "id": "ffef3336edabaaa2a03e740e9f30d772",
+      "type": "k8s.pod",
+      "name": "prometheus-585f9f4769-knhcx",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "prometheus-585f9f4769-knhcx",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "94934db001fd14c43d042c07af334de5",
+      "type": "k8s.pod",
+      "name": "prometheus-59d877867d-vcqxx",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "prometheus-59d877867d-vcqxx",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "0939a14ff1180761ad4212e426e2bcbd",
+      "type": "k8s.pod",
+      "name": "prometheus-56879cc97f-9b5pf",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "prometheus-56879cc97f-9b5pf",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "684fbd7914ceedd6099ea65e2b6bf459",
+      "type": "k8s.pod",
+      "name": "prometheus-dc874f8c8-lx5x6",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "prometheus-dc874f8c8-lx5x6",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "fbb2a50b526fda9cde2c653252a7756f",
+      "type": "k8s.pod",
+      "name": "prometheus-77bc54b654-n2z5c",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "prometheus-77bc54b654-n2z5c",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "c45f4920cefb440d38058cefae624a9d",
+      "type": "k8s.pod",
+      "name": "prometheus-76cfb65f78-9nnkh",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "prometheus-76cfb65f78-9nnkh",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "10e554a39f36020053b470601c31ca1a",
+      "type": "apm.instance",
+      "name": "accounting",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "accounting",
+        "host": "accounting-cf54cf94b-qtq2n",
+        "ip": "unknown_ip",
+        "language": "dotnet",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "accounting-cf54cf94b-qtq2n",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "5c1c30770f691a7805ee0bcc9d5c0e42",
+      "type": "apm.instance",
+      "name": "accounting",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "accounting",
+        "host": "accounting-cf54cf94b-cwql8",
+        "ip": "unknown_ip",
+        "language": "dotnet",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "accounting-cf54cf94b-cwql8",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "4423310f6084eb8246d4621d353f9277",
+      "type": "apm.instance",
+      "name": "quote",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "quote",
+        "host": "quote-74498b4fb6-5b2vb",
+        "ip": "unknown_ip",
+        "language": "php",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "quote-74498b4fb6-5b2vb",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "8161f0b2fe6bbf0d49bcadedf8f40935",
+      "type": "apm.instance",
+      "name": "payment",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "payment",
+        "host": "iZj6c7f6lyxevfek3t9pxzZ",
+        "ip": "unknown_ip",
+        "language": "nodejs",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "payment-5b9586d7cf-452rt",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "21e465d3bef1dca89c49bec0226361c6",
+      "type": "apm.instance",
+      "name": "currency",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "currency",
+        "host": "currency-84db6df9f6-gt5rn",
+        "ip": "unknown_ip",
+        "language": "cpp",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "currency-84db6df9f6-gt5rn",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "1a52bc421f2aa7bd270a0f4fc47a6fe7",
+      "type": "apm.instance",
+      "name": "ad",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "ad",
+        "host": "ad-59d75696db-lcsdf",
+        "ip": "unknown_ip",
+        "language": "java",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "ad-59d75696db-lcsdf",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "c2720b8a236dbdb84607b16a527b1551",
+      "type": "apm.instance",
+      "name": "quote",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "quote",
+        "host": "quote-74498b4fb6-ddwtp",
+        "ip": "unknown_ip",
+        "language": "php",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "quote-74498b4fb6-ddwtp",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "4dab800a1af4e1c5967569ece76ece14",
+      "type": "apm.instance",
+      "name": "payment",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "payment",
+        "host": "iZj6c5h52hceclm2yoobh5Z",
+        "ip": "unknown_ip",
+        "language": "nodejs",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "payment-696d688896-klnbs",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "11ed5835c54e76eae7ede1950cec8a3b",
+      "type": "apm.instance",
+      "name": "checkout",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "checkout",
+        "host": "10.0.1.147",
+        "ip": "10.0.1.147",
+        "language": "golang",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "apm",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "workload_name": "checkout",
+        "pod_name": "checkout-66dbc56b4c-jd7jh",
+        "workload_kind": "Deployment",
+        "properties": "{\"agent_version\":\"2.3.0-kitex_4e28b04\",\"agent_env\":\"ACSK8S\",\"process_id\":1,\"agent_status\":1,\"startup_time\":1775497718538,\"runtime_vm_vendor\":\"\",\"runtime_version\":\"\",\"pod_metadata\":\"{\\\"clusterId\\\":\\\"cfbbc0eabc19d43c0a6fb6889b4451ad0\\\",\\\"podName\\\":\\\"checkout-66dbc56b4c-jd7jh\\\",\\\"podNamespace\\\":\\\"cms-demo\\\",\\\"podUID\\\":\\\"76c9c903-52ff-4ee5-bb4f-206c982855ad\\\",\\\"podIp\\\":\\\"10.0.1.147\\\",\\\"nodeName\\\":\\\"\\\",\\\"hostIp\\\":\\\"\\\",\\\"podServiceAccount\\\":\\\"otel-demo\\\",\\\"podLabels\\\":{\\\"aliyun.com/app-language\\\":\\\"golang\\\",\\\"app.kubernetes.io/component\\\":\\\"checkout\\\",\\\"app.kubernetes.io/instance\\\":\\\"otel-demo\\\",\\\"app.kubernetes.io/name\\\":\\\"checkout\\\",\\\"armsPilotAppWorkspace\\\":\\\"rca-benchmark\\\",\\\"armsPilotAutoEnable\\\":\\\"on\\\",\\\"armsPilotCreateAppName\\\":\\\"checkout\\\",\\\"opentelemetry.io/name\\\":\\\"checkout\\\",\\\"pod-template-hash\\\":\\\"66dbc56b4c\\\"},\\\"podAnnotations\\\":{\\\"armsApmAppId\\\":\\\"hwx28v3j7p_4340311374a6e3d79eca7\\\",\\\"armsPilotAutoEnable\\\":\\\"on\\\",\\\"k8s.aliyun.com/pod-ips\\\":\\\"10.0.1.147\\\",\\\"kubectl.kubernetes.io/restartedAt\\\":\\\"2026-03-24T20:37:51.094097+00:00\\\",\\\"traffic.sidecar.istio.io/excludeOutboundIPRanges\\\":\\\"<aliyun_internal_cidr_1>/24,<aliyun_internal_cidr_2>/24,<aliyun_internal_cidr_3>/24,<aliyun_internal_cidr_4>/24\\\"}}\"}"
+      }
+    },
+    {
+      "id": "1f302465564d666090cd5b147893e6db",
+      "type": "apm.instance",
+      "name": "accounting",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "accounting",
+        "host": "accounting-cf54cf94b-l667d",
+        "ip": "unknown_ip",
+        "language": "dotnet",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "accounting-cf54cf94b-l667d",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "a1993c146c8fb46781ed8b6321c03270",
+      "type": "apm.instance",
+      "name": "shipping",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "shipping",
+        "host": "shipping-6b59997c88-cmqxz",
+        "ip": "unknown_ip",
+        "language": "rust",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "shipping-6b59997c88-cmqxz",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "e88d23ee16d28b27b2bb15603a5636a2",
+      "type": "apm.instance",
+      "name": "quote",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "quote",
+        "host": "quote-74498b4fb6-7nbf2",
+        "ip": "unknown_ip",
+        "language": "php",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "xtrace",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "<k8s_cluster_secondary>",
+        "workload_name": "",
+        "pod_name": "quote-74498b4fb6-7nbf2",
+        "workload_kind": "",
+        "properties": ""
+      }
+    },
+    {
+      "id": "5bf1b42daf4a761ef50f34c9849aa24c",
+      "type": "apm.instance",
+      "name": "checkout",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "service": "checkout",
+        "host": "10.0.1.85",
+        "ip": "10.0.1.85",
+        "language": "golang",
+        "service_id": "<arms_svc_id>",
+        "region_id": "cn-hongkong",
+        "source": "apm",
+        "instance_id": "",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "workload_name": "checkout",
+        "pod_name": "checkout-6ffdd55c58-qbtfh",
+        "workload_kind": "Deployment",
+        "properties": "{\"agent_version\":\"2.3.0-kitex_4e28b04\",\"agent_env\":\"ACSK8S\",\"process_id\":1,\"agent_status\":1,\"startup_time\":1774670533466,\"runtime_vm_vendor\":\"\",\"runtime_version\":\"\",\"pod_metadata\":\"{\\\"clusterId\\\":\\\"cfbbc0eabc19d43c0a6fb6889b4451ad0\\\",\\\"podName\\\":\\\"checkout-6ffdd55c58-qbtfh\\\",\\\"podNamespace\\\":\\\"cms-demo\\\",\\\"podUID\\\":\\\"ff4d87d1-5679-4b02-b276-315223f1ec83\\\",\\\"podIp\\\":\\\"10.0.1.85\\\",\\\"nodeName\\\":\\\"\\\",\\\"hostIp\\\":\\\"\\\",\\\"podServiceAccount\\\":\\\"otel-demo\\\",\\\"podLabels\\\":{\\\"aliyun.com/app-language\\\":\\\"golang\\\",\\\"app.kubernetes.io/component\\\":\\\"checkout\\\",\\\"app.kubernetes.io/instance\\\":\\\"otel-demo\\\",\\\"app.kubernetes.io/name\\\":\\\"checkout\\\",\\\"armsPilotAppWorkspace\\\":\\\"rca-benchmark\\\",\\\"armsPilotAutoEnable\\\":\\\"on\\\",\\\"armsPilotCreateAppName\\\":\\\"checkout\\\",\\\"opentelemetry.io/name\\\":\\\"checkout\\\",\\\"pod-template-hash\\\":\\\"6ffdd55c58\\\"},\\\"podAnnotations\\\":{\\\"armsApmAppId\\\":\\\"hwx28v3j7p_4340311374a6e3d79eca7\\\",\\\"armsPilotAutoEnable\\\":\\\"on\\\",\\\"k8s.aliyun.com/pod-ips\\\":\\\"10.0.1.85\\\",\\\"kubectl.kubernetes.io/restartedAt\\\":\\\"2026-03-24T20:37:51.094097+00:00\\\",\\\"traffic.sidecar.istio.io/excludeOutboundIPRanges\\\":\\\"<aliyun_internal_cidr_1>/24,<aliyun_internal_cidr_2>/24,<aliyun_internal_cidr_3>/24,<aliyun_internal_cidr_4>/24\\\"}}\"}"
+      }
+    },
+    {
+      "id": "a98893c49a26a76cf106165bf04c5d23",
+      "type": "k8s.pod",
+      "name": "checkout-76dd8cf45b-fhsp2",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "checkout-76dd8cf45b-fhsp2",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "f75984a390c16f76f362c49554a98df5",
+      "type": "k8s.pod",
+      "name": "inventory-794d9f8f85-hhjtj",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "inventory-794d9f8f85-hhjtj",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "65a4dae96df35d2707a5a520b77a022b",
+      "type": "k8s.pod",
+      "name": "inventory-87855b9b9-bjrcs",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "inventory-87855b9b9-bjrcs",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "7b76f230b3044421b2ccfafab2b7bc2f",
+      "type": "k8s.pod",
+      "name": "inventory-556cbf4c84-xz8nh",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "inventory-556cbf4c84-xz8nh",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "4049963894d62095ec6ccb1e9a2f3c8f",
+      "type": "k8s.pod",
+      "name": "checkout-84974d577f-4drh7",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "checkout-84974d577f-4drh7",
+        "namespace": "cms-demo",
+        "cluster_id": "cfbbc0eabc19d43c0a6fb6889b4451ad0",
+        "node": null
+      }
+    },
+    {
+      "id": "bbbd31b57e6ffc9d8a5822858f526714",
+      "type": "apm.service",
+      "name": "load-generator",
+      "first_observed": 0,
+      "last_observed": 0,
+      "props": {
+        "name": "load-generator",
+        "workspace": "rca-benchmark"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "7ebab0534e460fa3d6eefe3118cb1294",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "1936f4306fa6e55ef94d004cf00419c2",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "f97f547e9f5113a60d60db8836b0def6",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "9240a2aa826307c003a25fed9bc9a1d7",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1770126688,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "a1d751f4e4445ecb1a92f5eafc5f006c",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "848713c066175e461f8a7088f54b37c9",
+      "src_type": "k8s.pod",
+      "dst": "07701fda8251906f1bd87b14d34fc002",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "41cb3d5f4ab5cd618e5f099fa7230baa",
+      "src_type": "k8s.pod",
+      "dst": "7fb113e159d1fa7ccdfc641acf1870ad",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "521f5afe1109ac0939224a5e6e6acfd4",
+      "src_type": "k8s.pod",
+      "dst": "c6cbf1b49bcdb7d33859d04c79b97bf8",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "d219413245b68b297976412bbee076cf",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "162799adab6799326676266a2c96cf3e",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "938b93c483d62fc359229634908f9b2c",
+      "src_type": "apm.service",
+      "dst": "70f44dcafe5c48a05e3a0fbd3ac346d4",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "d5479ffd165e089a67b3d4eeb8519fb7",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "9e69280c47b4c2f35576402946e3b714",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "b966e1cdfad1990aea191923bbcaae31",
+      "src_type": "apm.service",
+      "dst": "1ca0fe8faf6164a7e5e02fadbeb8c993",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "d50c84b68b0c836ed11578cb35b70b9f",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "469f8e313055adba13ca3f4e76c65505",
+      "src_type": "apm.service",
+      "dst": "7bb1b1512922edfdefac66f31c640a81",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "cec115354dbee69ffba12c1d6863e993",
+      "src_type": "apm.service",
+      "dst": "73aefe447080e4c6e6776b3db64f8998",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ae41c357daeed41f49e51340e779af71",
+      "src_type": "apm.service",
+      "dst": "455f921f0afc16175724d9f27faf18e4",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "469f8e313055adba13ca3f4e76c65505",
+      "src_type": "apm.service",
+      "dst": "3ff65eef282fcdd303aebab1c132fe9f",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "f0f48dba04dac18cb90a8f45fd518625",
+      "dst_type": "apm.external.http_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "b966e1cdfad1990aea191923bbcaae31",
+      "src_type": "apm.service",
+      "dst": "5c370cc3751a5504bdc7638eff1bf10c",
+      "dst_type": "apm.external.http_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "5ba88d25175d87cb5977cb56e01ed17c",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "b96ac7e3e7bfb7a90fff90d51ba5ebf1",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "ae41c357daeed41f49e51340e779af71",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "469f8e313055adba13ca3f4e76c65505",
+      "src_type": "apm.service",
+      "dst": "474c2072f1451452bbb1abf29cc68b10",
+      "dst_type": "apm.external.http_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "4a3540083187f902c246d8e11e2a3ff1",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "58b0359aa2c6a6cbeecdb44b74d39724",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "b966e1cdfad1990aea191923bbcaae31",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "d1f1b0349fadcfdc23ca3918ac448623",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "eab531e9b188fe065edbebdbf839c609",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "cbc07c84c150ea654898625a992b2aa0",
+      "src_type": "apm.service",
+      "dst": "fa185acb90d49c6a2086f3f5a12e79f7",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "938b93c483d62fc359229634908f9b2c",
+      "src_type": "apm.service",
+      "dst": "bfecdeaa89649cbfac1ac329277acd0c",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "fa548039d9a7b76db9ec70507e734faf",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "6056069b1f55a1fce9d84f5f7a65478b",
+      "src_type": "apm.service",
+      "dst": "d649dcb50618ceef51d8ba57f13d2288",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "938b93c483d62fc359229634908f9b2c",
+      "src_type": "apm.service",
+      "dst": "e0d75570cb20574eb2bcf1d9e033169b",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "cec115354dbee69ffba12c1d6863e993",
+      "src_type": "apm.service",
+      "dst": "8c1aa8de8978e91a0a0ad79bf9141203",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "1d1c9abbd8fd9bc06d590badcf186bd1",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "6056069b1f55a1fce9d84f5f7a65478b",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "d7a7899b0bef364781b3e4cf9cc9b707",
+      "dst_type": "apm.external.database",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "177627f91af678a9b03e993f1a91917f",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "54013ba69c196820e56801f1ef5aad54",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "a4d1fdf4a7cd746c56dbb5241779104c",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "9bb8ef2fc6a21bbe8729bd095c9e75fa",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "3b0aaa9cc6d1f48a6fce24d7b439f478",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "d1c2b3981457bf9b5c5beefbbf246ebc",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "6056069b1f55a1fce9d84f5f7a65478b",
+      "src_type": "apm.service",
+      "dst": "909266cc78c3ff73b19ed517712d5e2c",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "c6388887e91aa969bdf210fe96a48098",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "b96ac7e3e7bfb7a90fff90d51ba5ebf1",
+      "src_type": "apm.service",
+      "dst": "9052fc8c9077971fe3a1e1bf4bdbed5a",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "afa894cb32aaf3beb1e86bf5a1f31649",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "28887014538b3aeed572d8e4810f6d88",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "86a42ddcab6c62f627b395f419edf146",
+      "src_type": "apm.service",
+      "dst": "3f93a71da8d6346463078212dc8be3e0",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "2f6f09b9df7111c552c5b3e5d8dde64a",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "06e538f4a2950039a09fd3bba1d3b7b2",
+      "src_type": "apm.service",
+      "dst": "6f1eec9b66ae1316ed52e0cc85696aeb",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "a91abd12b9ee4f2b054fad94d5ab4388",
+      "dst_type": "apm.external.http_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "6cedcc5fe1285eeedccc394f1a525f40",
+      "dst_type": "apm.external.http_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "22d395812a3795ccd16f64590544b3f9",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "06e538f4a2950039a09fd3bba1d3b7b2",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "12c500ed0b7879105fb46af0f246be87",
+      "dst_type": "apm.external.message",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "8dab0cc6e55893cec1caadfc16fd0b7c",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "6056069b1f55a1fce9d84f5f7a65478b",
+      "src_type": "apm.service",
+      "dst": "58a3b756b31dd6fc7580c8bbaf46a1a1",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "cec115354dbee69ffba12c1d6863e993",
+      "src_type": "apm.service",
+      "dst": "2d7b6ce3249c8c9c0522363b6474be94",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "09b77977ece939974c583863691d1d67",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "b966e1cdfad1990aea191923bbcaae31",
+      "src_type": "apm.service",
+      "dst": "53ba95864da43d9f76c51d6688ef55fd",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "cec115354dbee69ffba12c1d6863e993",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "7fb113e159d1fa7ccdfc641acf1870ad",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "07701fda8251906f1bd87b14d34fc002",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "41514838612df3890107dfa9e39e23d1",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "0730d69c0818717e0d0e987385f3a3ab",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "cbc07c84c150ea654898625a992b2aa0",
+      "src_type": "apm.service",
+      "dst": "453629524db3a9aeea0620d6b40fd2f7",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "53ba95864da43d9f76c51d6688ef55fd",
+      "src_type": "apm.service",
+      "dst": "bbde6f901cd0a2e6b82e9351b79b88b9",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "fb364e80b42f16618b6de13f3579b6ab",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "cabd97bdaf1d9dab60eef857cbf02d37",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "b966e1cdfad1990aea191923bbcaae31",
+      "src_type": "apm.service",
+      "dst": "d4bd2837257aa9b4e96fa92507b51d78",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "2c6178d0df0f42878da5933795f7502e",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "469f8e313055adba13ca3f4e76c65505",
+      "src_type": "apm.service",
+      "dst": "e433b3f842dc4e525a834701cc603c28",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "c01a1596a0d45bb7a531f16689910a43",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ae41c357daeed41f49e51340e779af71",
+      "src_type": "apm.service",
+      "dst": "1948ddf615871ac6fc18d01f72817e86",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "9124854f18573aaefc053e0b24a8ae85",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "ce143d26cf40ac189c58c8a0d2414b0a",
+      "dst_type": "apm.external.http_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "469f8e313055adba13ca3f4e76c65505",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "523af537946b79c4f8369ed39ba78605",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "469f8e313055adba13ca3f4e76c65505",
+      "src_type": "apm.service",
+      "dst": "ed13cb14265f98d9eb3b89b664760adb",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "cbc07c84c150ea654898625a992b2aa0",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "469f8e313055adba13ca3f4e76c65505",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "469f8e313055adba13ca3f4e76c65505",
+      "src_type": "apm.service",
+      "dst": "451f9d79aa9adef5c515e267392f567e",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "48efad9042ff9e6008f8d3a27c03761d",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "469f8e313055adba13ca3f4e76c65505",
+      "src_type": "apm.service",
+      "dst": "cd0b2acca3b0ecf8f3453656ed08e6af",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "2204a5fb2eda60e61ec3d2e2a5dd04e9",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "6056069b1f55a1fce9d84f5f7a65478b",
+      "src_type": "apm.service",
+      "dst": "3e3627a07459dcc2affee8c07fc04c82",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "cec115354dbee69ffba12c1d6863e993",
+      "src_type": "apm.service",
+      "dst": "f61a7c6f68875a5ff17cb8ea4444e467",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "938b93c483d62fc359229634908f9b2c",
+      "src_type": "apm.service",
+      "dst": "6e1676cca090150960f2e06753af8939",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "ae41c357daeed41f49e51340e779af71",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ed13cb14265f98d9eb3b89b664760adb",
+      "src_type": "apm.service",
+      "dst": "c6cbf1b49bcdb7d33859d04c79b97bf8",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "e9ff88d0d4435e77b15e4cc955e04836",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1770126688,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "91b70c71241fcadb0a9fd6ae7f4ddd0a",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1770126687,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "aeead5a461cc3ccd5dd92b0ce139ce68",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1770126688,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "af2679d141fc313291e276608cddbc39",
+      "src_type": "k8s.service",
+      "dst": "521f5afe1109ac0939224a5e6e6acfd4",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776845196,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "9b9550abfc514d11adc5d40c72b986e1",
+      "src_type": "k8s.service",
+      "dst": "d119f9f9cacefe89798a00f03ab8848c",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773748954,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "c63d8529c981b90036a1b7b6dd93a27f",
+      "src_type": "k8s.service",
+      "dst": "5b42fa71714e892228b795ebfc7318b8",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437644,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "76e11823df2ccc17ea12cb61c0917a98",
+      "src_type": "k8s.service",
+      "dst": "afc55866b8a37d9dbfc67d84e70c575c",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437970,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "856e2cd6a6b67290aca498669e27da4c",
+      "src_type": "k8s.service",
+      "dst": "a4a5bd784de582d9481430f7caa27077",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329411,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "af2679d141fc313291e276608cddbc39",
+      "src_type": "k8s.service",
+      "dst": "848713c066175e461f8a7088f54b37c9",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776845159,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7b1e5d17a0ad1d6016ac59fa1ab0ff50",
+      "src_type": "k8s.service",
+      "dst": "4130542fd1534e358762725cb151654e",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329412,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7b1e5d17a0ad1d6016ac59fa1ab0ff50",
+      "src_type": "k8s.service",
+      "dst": "4f7a0b5c7a7cd90da5850d8d79feec71",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329411,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "856e2cd6a6b67290aca498669e27da4c",
+      "src_type": "k8s.service",
+      "dst": "bce0bc6214f145a5dcdbab855e660c69",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329413,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7ec0e8ff446c5533cf9c519681cbc0e7",
+      "src_type": "k8s.service",
+      "dst": "d1dc9e8b2594a4fa7780e44ac89aab7b",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776834237,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "76e11823df2ccc17ea12cb61c0917a98",
+      "src_type": "k8s.service",
+      "dst": "0a0a46466fbad48d237892c4d0ce0524",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437962,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "856e2cd6a6b67290aca498669e27da4c",
+      "src_type": "k8s.service",
+      "dst": "66c3f47e252c52180eae61ca0818c990",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329409,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7ec0e8ff446c5533cf9c519681cbc0e7",
+      "src_type": "k8s.service",
+      "dst": "ad4925dd701a949a3f91a056c41d82bd",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776834241,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "fc06128e4b4c3e00d1ff2dab1587fc0d",
+      "src_type": "k8s.service",
+      "dst": "a482ab2e92b2bb965273d49e5effcd73",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776694917,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "76e11823df2ccc17ea12cb61c0917a98",
+      "src_type": "k8s.service",
+      "dst": "63cdea7564058511e3e8c7a75ebb0823",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437966,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "ad640f10d78b50311874a70d012a8a71",
+      "src_type": "k8s.service",
+      "dst": "5e9c6287e609b274290f7cc4c7db3e66",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776927703,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "8d8686c0e0df5fd86f43e0bf938591e3",
+      "src_type": "k8s.service",
+      "dst": "c501322c9763fadd037087c40159d38f",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776870975,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "af2679d141fc313291e276608cddbc39",
+      "src_type": "k8s.service",
+      "dst": "41cb3d5f4ab5cd618e5f099fa7230baa",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776845231,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "ad640f10d78b50311874a70d012a8a71",
+      "src_type": "k8s.service",
+      "dst": "59fef96689cd176c246b34ef8a3f1024",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776927703,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "fc06128e4b4c3e00d1ff2dab1587fc0d",
+      "src_type": "k8s.service",
+      "dst": "fe89a21966d62245f3bd959e53f62d66",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776694912,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7ec0e8ff446c5533cf9c519681cbc0e7",
+      "src_type": "k8s.service",
+      "dst": "227e6b0974f37e8c8090552044554e23",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776834239,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "c63d8529c981b90036a1b7b6dd93a27f",
+      "src_type": "k8s.service",
+      "dst": "a27dbe8f1db2dbc32aa9f1ae4ea7af7f",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776696323,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7b1e5d17a0ad1d6016ac59fa1ab0ff50",
+      "src_type": "k8s.service",
+      "dst": "c36a4b7b911ddf9857d521e428e9cdc7",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776696323,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "6c5b459ebcd3c71caa1e9f84283676ab",
+      "src_type": "k8s.ingress",
+      "dst": "856e2cd6a6b67290aca498669e27da4c",
+      "dst_type": "k8s.service",
+      "relation": "calls",
+      "first_observed": 1766993583,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "6c5b459ebcd3c71caa1e9f84283676ab",
+      "dst_type": "k8s.ingress",
+      "relation": "contains",
+      "first_observed": 1766993583,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "15d891e437cfbb665d267e1d4f247a54",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1773048920,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "e18f008de00a37381f5577d3a0c8238c",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "6dec9fe0ccc2f9ed8a2a011044f06846",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "7e2e2216de80d2e4f55561da89d92028",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1773048921,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "5a863ebe27c1773362748e033e3c5713",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "c32e8a0380b24d0f3c89dd8e823c5e21",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "54822d2959721bfc645f24ac2f5a3217",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "066a298bf0d2fe2cafd368d537bec8ce",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "b0d99a1e51770fed007115fe222c39fe",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "c7a0773db2fbddfed22fffa0d68207ff",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "8067a48040a05d70fd9f26a95c105f78",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1770126687,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "f03d58759bee63a51fb0261d97e8e501",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "6d7070968a3e0b609733fe3b54f8030a",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "a0f141d1f9ab8733df665df12931551a",
+      "dst_type": "k8s.configmap",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "8271c058f22df8737986f7c5aa7ea83c",
+      "src_type": "k8s.cronjob",
+      "dst": "e85b74e78e65e7c6282bd083de183601",
+      "dst_type": "k8s.job",
+      "relation": "contains",
+      "first_observed": 1773329400,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "8271c058f22df8737986f7c5aa7ea83c",
+      "src_type": "k8s.cronjob",
+      "dst": "d81c6f7d5be4d269b69aa4e3c74d637e",
+      "dst_type": "k8s.job",
+      "relation": "contains",
+      "first_observed": 1773325800,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "8271c058f22df8737986f7c5aa7ea83c",
+      "src_type": "k8s.cronjob",
+      "dst": "64e3ad2831865535c8c8f40629f69f33",
+      "dst_type": "k8s.job",
+      "relation": "contains",
+      "first_observed": 1773327600,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "e85b74e78e65e7c6282bd083de183601",
+      "dst_type": "k8s.job",
+      "relation": "contains",
+      "first_observed": 1773329400,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "d81c6f7d5be4d269b69aa4e3c74d637e",
+      "dst_type": "k8s.job",
+      "relation": "contains",
+      "first_observed": 1773325800,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "64e3ad2831865535c8c8f40629f69f33",
+      "dst_type": "k8s.job",
+      "relation": "contains",
+      "first_observed": 1773327600,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "8271c058f22df8737986f7c5aa7ea83c",
+      "dst_type": "k8s.cronjob",
+      "relation": "contains",
+      "first_observed": 1766990985,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "7b1e5d17a0ad1d6016ac59fa1ab0ff50",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "8d8686c0e0df5fd86f43e0bf938591e3",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "76e11823df2ccc17ea12cb61c0917a98",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "93161b136615aa1a01aa52dc4e52ec36",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "0375934342a7f2b01ee80cbbbf203c44",
+      "dst_type": "k8s.namespace",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "5c84b4649c75deeacfbd4149e3c8b496",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "ad35648bfcbfce00ef7302048e069657",
+      "src_type": "k8s.cluster",
+      "dst": "b3b2ffabc65e72425b34ea6a0caa18da",
+      "dst_type": "k8s.node",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "fc06128e4b4c3e00d1ff2dab1587fc0d",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "af2679d141fc313291e276608cddbc39",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1773319908,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "2e5b4a766f281fb0ac428377ec2db0de",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "d6e36e3a07c2e0bbe6cd48667ec94c89",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "c63d8529c981b90036a1b7b6dd93a27f",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "f0018175c41828db53e9eee98ae959c4",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "ad640f10d78b50311874a70d012a8a71",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "9b9550abfc514d11adc5d40c72b986e1",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1773048923,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "856e2cd6a6b67290aca498669e27da4c",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "6df33a48069d6ced63f0e60452bd6ab4",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "7ec0e8ff446c5533cf9c519681cbc0e7",
+      "dst_type": "k8s.service",
+      "relation": "contains",
+      "first_observed": 1766990984,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "066a298bf0d2fe2cafd368d537bec8ce",
+      "src_type": "k8s.node",
+      "dst": "c2f1fbcb1b18f89fb1b2768ba8cebc6b",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776662505,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "b0d99a1e51770fed007115fe222c39fe",
+      "src_type": "k8s.node",
+      "dst": "8f8f23504fb5942b88d55aacf2d58efb",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437464,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "b0d99a1e51770fed007115fe222c39fe",
+      "src_type": "k8s.node",
+      "dst": "521f5afe1109ac0939224a5e6e6acfd4",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776845196,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "c7a0773db2fbddfed22fffa0d68207ff",
+      "src_type": "k8s.node",
+      "dst": "d119f9f9cacefe89798a00f03ab8848c",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773748954,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "b3b2ffabc65e72425b34ea6a0caa18da",
+      "src_type": "k8s.node",
+      "dst": "5b42fa71714e892228b795ebfc7318b8",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437644,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "b3b2ffabc65e72425b34ea6a0caa18da",
+      "src_type": "k8s.node",
+      "dst": "8ff2a1919f52c5f810cac540155dd5df",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437468,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "f97f547e9f5113a60d60db8836b0def6",
+      "src_type": "k8s.node",
+      "dst": "afc55866b8a37d9dbfc67d84e70c575c",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437970,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "f97f547e9f5113a60d60db8836b0def6",
+      "src_type": "k8s.node",
+      "dst": "a4a5bd784de582d9481430f7caa27077",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329411,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "91b70c71241fcadb0a9fd6ae7f4ddd0a",
+      "src_type": "k8s.node",
+      "dst": "848713c066175e461f8a7088f54b37c9",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776845159,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "e9ff88d0d4435e77b15e4cc955e04836",
+      "src_type": "k8s.node",
+      "dst": "4130542fd1534e358762725cb151654e",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329412,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "b3b2ffabc65e72425b34ea6a0caa18da",
+      "src_type": "k8s.node",
+      "dst": "4f7a0b5c7a7cd90da5850d8d79feec71",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329411,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "91b70c71241fcadb0a9fd6ae7f4ddd0a",
+      "src_type": "k8s.node",
+      "dst": "bce0bc6214f145a5dcdbab855e660c69",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329413,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "54822d2959721bfc645f24ac2f5a3217",
+      "src_type": "k8s.node",
+      "dst": "d1dc9e8b2594a4fa7780e44ac89aab7b",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776834237,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "91b70c71241fcadb0a9fd6ae7f4ddd0a",
+      "src_type": "k8s.node",
+      "dst": "0a0a46466fbad48d237892c4d0ce0524",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437962,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "a1d751f4e4445ecb1a92f5eafc5f006c",
+      "src_type": "k8s.node",
+      "dst": "66c3f47e252c52180eae61ca0818c990",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1773329409,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "b3b2ffabc65e72425b34ea6a0caa18da",
+      "src_type": "k8s.node",
+      "dst": "ad4925dd701a949a3f91a056c41d82bd",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776834241,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "b3b2ffabc65e72425b34ea6a0caa18da",
+      "src_type": "k8s.node",
+      "dst": "a482ab2e92b2bb965273d49e5effcd73",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776694917,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "e9ff88d0d4435e77b15e4cc955e04836",
+      "src_type": "k8s.node",
+      "dst": "c8d96a12176bdf6e71ead10b5a311bf7",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437462,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "e9ff88d0d4435e77b15e4cc955e04836",
+      "src_type": "k8s.node",
+      "dst": "63cdea7564058511e3e8c7a75ebb0823",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776437966,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "a1d751f4e4445ecb1a92f5eafc5f006c",
+      "src_type": "k8s.node",
+      "dst": "5e9c6287e609b274290f7cc4c7db3e66",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776927703,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "aeead5a461cc3ccd5dd92b0ce139ce68",
+      "src_type": "k8s.node",
+      "dst": "c501322c9763fadd037087c40159d38f",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776870975,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "c7a0773db2fbddfed22fffa0d68207ff",
+      "src_type": "k8s.node",
+      "dst": "41cb3d5f4ab5cd618e5f099fa7230baa",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776845231,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "5c84b4649c75deeacfbd4149e3c8b496",
+      "src_type": "k8s.node",
+      "dst": "59fef96689cd176c246b34ef8a3f1024",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776927703,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "1936f4306fa6e55ef94d004cf00419c2",
+      "src_type": "k8s.node",
+      "dst": "fe89a21966d62245f3bd959e53f62d66",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776694912,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "c7a0773db2fbddfed22fffa0d68207ff",
+      "src_type": "k8s.node",
+      "dst": "227e6b0974f37e8c8090552044554e23",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776834239,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "54822d2959721bfc645f24ac2f5a3217",
+      "src_type": "k8s.node",
+      "dst": "a27dbe8f1db2dbc32aa9f1ae4ea7af7f",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776696323,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "1936f4306fa6e55ef94d004cf00419c2",
+      "src_type": "k8s.node",
+      "dst": "c36a4b7b911ddf9857d521e428e9cdc7",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776696323,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "c63d8529c981b90036a1b7b6dd93a27f",
+      "src_type": "k8s.service",
+      "dst": "c2f1fbcb1b18f89fb1b2768ba8cebc6b",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1776662505,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "bb7be48b1dfd3d47177939e1b5e7c001",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777009573
+    },
+    {
+      "src": "be9d8f99bff2d1a463deed5f650ae292",
+      "src_type": "apm.service",
+      "dst": "4d0925b22b742ff7a5b20f15d852d260",
+      "dst_type": "apm.external.http_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777011853
+    },
+    {
+      "src": "cbc07c84c150ea654898625a992b2aa0",
+      "src_type": "apm.service",
+      "dst": "e3bc61b6ebea0c7c3b256b5b97e5d5f7",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777011793
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "1af0389838508d7016a9841eb6273962",
+      "dst_type": "apm.external.rpc_client",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777011853
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "489f26fda14ce299a39866bd655cfc59",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777011793
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "cbc07c84c150ea654898625a992b2aa0",
+      "dst_type": "apm.service",
+      "relation": "calls",
+      "first_observed": 0,
+      "last_observed": 1777011853
+    },
+    {
+      "src": "ae41c357daeed41f49e51340e779af71",
+      "src_type": "apm.service",
+      "dst": "c93118395663d521bce10fef08a7c47a",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ae41c357daeed41f49e51340e779af71",
+      "src_type": "apm.service",
+      "dst": "4fa59dd54a6f1827af408fc65b32a97f",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "ae41c357daeed41f49e51340e779af71",
+      "src_type": "apm.service",
+      "dst": "ea301d80039bdbe70af0c300822a09b8",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777015333
+    },
+    {
+      "src": "d6e36e3a07c2e0bbe6cd48667ec94c89",
+      "src_type": "k8s.service",
+      "dst": "43df328790aded19b0753760e9dfe4b8",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013621,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "e9ff88d0d4435e77b15e4cc955e04836",
+      "src_type": "k8s.node",
+      "dst": "43df328790aded19b0753760e9dfe4b8",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013621,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "d6e36e3a07c2e0bbe6cd48667ec94c89",
+      "src_type": "k8s.service",
+      "dst": "90b1fdd5ba3f46b1a6e7ba6f6ffd00b7",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013622,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "1936f4306fa6e55ef94d004cf00419c2",
+      "src_type": "k8s.node",
+      "dst": "90b1fdd5ba3f46b1a6e7ba6f6ffd00b7",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013622,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "d6e36e3a07c2e0bbe6cd48667ec94c89",
+      "src_type": "k8s.service",
+      "dst": "576a448cfa33b9dba1ac78a7aaca3f8d",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013623,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "f97f547e9f5113a60d60db8836b0def6",
+      "src_type": "k8s.node",
+      "dst": "576a448cfa33b9dba1ac78a7aaca3f8d",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013623,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "6df33a48069d6ced63f0e60452bd6ab4",
+      "src_type": "k8s.service",
+      "dst": "7c01af709ece1b02725ec7de4e5bf711",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013632,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "1936f4306fa6e55ef94d004cf00419c2",
+      "src_type": "k8s.node",
+      "dst": "7c01af709ece1b02725ec7de4e5bf711",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013632,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "6df33a48069d6ced63f0e60452bd6ab4",
+      "src_type": "k8s.service",
+      "dst": "5de5977c0f57918504c273e087edb8b9",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013635,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "226f0b4ac462f5d6f17ccd69da4bb622",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777014853
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "c828a8cbda8d3b90ca2f9119b07c95c8",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777013953
+    },
+    {
+      "src": "1936f4306fa6e55ef94d004cf00419c2",
+      "src_type": "k8s.node",
+      "dst": "5de5977c0f57918504c273e087edb8b9",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013635,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "6df33a48069d6ced63f0e60452bd6ab4",
+      "src_type": "k8s.service",
+      "dst": "ac305bf8717783a2ca68c618593170b6",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013660,
+      "last_observed": 1777014885
+    },
+    {
+      "src": "1936f4306fa6e55ef94d004cf00419c2",
+      "src_type": "k8s.node",
+      "dst": "ac305bf8717783a2ca68c618593170b6",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 1777013660,
+      "last_observed": 1777015185
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "c45327213f911bdc237c71c66ef7d4a8",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777014553
+    },
+    {
+      "src": "7b50436b7fb9e828f0a8c32a69c53ab0",
+      "src_type": "apm.service",
+      "dst": "4331a591af8b537aa7adcfd81b247d14",
+      "dst_type": "apm.operation",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 1777014853
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "ffef3336edabaaa2a03e740e9f30d772",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "94934db001fd14c43d042c07af334de5",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "0939a14ff1180761ad4212e426e2bcbd",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "684fbd7914ceedd6099ea65e2b6bf459",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "fbb2a50b526fda9cde2c653252a7756f",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "c45f4920cefb440d38058cefae624a9d",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "86a42ddcab6c62f627b395f419edf146",
+      "src_type": "apm.service",
+      "dst": "10e554a39f36020053b470601c31ca1a",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0a0f7aa4665c9c35825580573f3caf23",
+      "src_type": "k8s.pod",
+      "dst": "10e554a39f36020053b470601c31ca1a",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "86a42ddcab6c62f627b395f419edf146",
+      "src_type": "apm.service",
+      "dst": "5c1c30770f691a7805ee0bcc9d5c0e42",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "d41a96cb1c8866ddb6fbbf0b508dcafb",
+      "src_type": "k8s.pod",
+      "dst": "5c1c30770f691a7805ee0bcc9d5c0e42",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "53ba95864da43d9f76c51d6688ef55fd",
+      "src_type": "apm.service",
+      "dst": "4423310f6084eb8246d4621d353f9277",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "cf72dc7d82d4848fac4a02107dbccf78",
+      "src_type": "k8s.pod",
+      "dst": "4423310f6084eb8246d4621d353f9277",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "06e538f4a2950039a09fd3bba1d3b7b2",
+      "src_type": "apm.service",
+      "dst": "8161f0b2fe6bbf0d49bcadedf8f40935",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "cbc07c84c150ea654898625a992b2aa0",
+      "src_type": "apm.service",
+      "dst": "21e465d3bef1dca89c49bec0226361c6",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "59fef96689cd176c246b34ef8a3f1024",
+      "src_type": "k8s.pod",
+      "dst": "21e465d3bef1dca89c49bec0226361c6",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "b96ac7e3e7bfb7a90fff90d51ba5ebf1",
+      "src_type": "apm.service",
+      "dst": "1a52bc421f2aa7bd270a0f4fc47a6fe7",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "c501322c9763fadd037087c40159d38f",
+      "src_type": "k8s.pod",
+      "dst": "1a52bc421f2aa7bd270a0f4fc47a6fe7",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "53ba95864da43d9f76c51d6688ef55fd",
+      "src_type": "apm.service",
+      "dst": "c2720b8a236dbdb84607b16a527b1551",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "5c474d53ff5f79786d600fa6f537e654",
+      "src_type": "k8s.pod",
+      "dst": "c2720b8a236dbdb84607b16a527b1551",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "06e538f4a2950039a09fd3bba1d3b7b2",
+      "src_type": "apm.service",
+      "dst": "4dab800a1af4e1c5967569ece76ece14",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0a0a46466fbad48d237892c4d0ce0524",
+      "src_type": "k8s.pod",
+      "dst": "4dab800a1af4e1c5967569ece76ece14",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "11ed5835c54e76eae7ede1950cec8a3b",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "86a42ddcab6c62f627b395f419edf146",
+      "src_type": "apm.service",
+      "dst": "1f302465564d666090cd5b147893e6db",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "3bb6e67b3dcbe1ed1e0603a506606634",
+      "src_type": "k8s.pod",
+      "dst": "1f302465564d666090cd5b147893e6db",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "b966e1cdfad1990aea191923bbcaae31",
+      "src_type": "apm.service",
+      "dst": "a1993c146c8fb46781ed8b6321c03270",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "5de5977c0f57918504c273e087edb8b9",
+      "src_type": "k8s.pod",
+      "dst": "a1993c146c8fb46781ed8b6321c03270",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "53ba95864da43d9f76c51d6688ef55fd",
+      "src_type": "apm.service",
+      "dst": "e88d23ee16d28b27b2bb15603a5636a2",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "588da07410210987bb9313e36682d840",
+      "src_type": "k8s.pod",
+      "dst": "e88d23ee16d28b27b2bb15603a5636a2",
+      "dst_type": "apm.instance",
+      "relation": "hosts",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "55e5d48e4d1bdc8b07f350cb89476ad1",
+      "src_type": "apm.service",
+      "dst": "5bf1b42daf4a761ef50f34c9849aa24c",
+      "dst_type": "apm.instance",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "a98893c49a26a76cf106165bf04c5d23",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "f75984a390c16f76f362c49554a98df5",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "65a4dae96df35d2707a5a520b77a022b",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "7b76f230b3044421b2ccfafab2b7bc2f",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    },
+    {
+      "src": "0375934342a7f2b01ee80cbbbf203c44",
+      "src_type": "k8s.namespace",
+      "dst": "4049963894d62095ec6ccb1e9a2f3c8f",
+      "dst_type": "k8s.pod",
+      "relation": "contains",
+      "first_observed": 0,
+      "last_observed": 0
+    }
+  ],
+  "stats": {
+    "entities_total": 237,
+    "edges_total": 249,
+    "entities_by_type": {
+      "apm.service": 19,
+      "k8s.cluster": 1,
+      "k8s.namespace": 1,
+      "k8s.node": 15,
+      "k8s.persistentvolume": 1,
+      "k8s.storageclass": 4,
+      "apm.external.database": 1,
+      "apm.external.http_client": 7,
+      "apm.external.message": 1,
+      "apm.external.rpc_client": 13,
+      "apm.instance": 37,
+      "apm.operation": 39,
+      "k8s.configmap": 9,
+      "k8s.cronjob": 1,
+      "k8s.ingress": 1,
+      "k8s.job": 3,
+      "k8s.pod": 69,
+      "k8s.service": 15
+    },
+    "edges_by_relation": {
+      "contains": 198,
+      "hosts": 13,
+      "calls": 38
+    }
+  }
+}
